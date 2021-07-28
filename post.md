@@ -439,7 +439,7 @@ construct the full credits music sequences, though sometimes it's a bit differen
     * `926395753.wem`
     * Not available online that I'm aware of
 
-**DLC1 (Moxxi's Heist of the Handsome Jackpot) Credits**
+**DLC1 (Moxxi's Heist of the Handsome Jackpot) End Sequence / Credits**
 
 This is the first place (in this list) that we run into some tracks from the
 [Beat Swing](https://anonymousrecordings.com/music/beat-swing/) series of albums,
@@ -449,6 +449,13 @@ media like video games?  They're made by someone who's alternately credited as
 There's the original version of that, but then also a whole series of remix
 versions.
 
+* Caleb Hawley / Wish You Were Mine
+  * `Video_Epilogue.txtp`
+  * `929106243.wem`
+  * The datafile (and the cinematic it's related to) only have a pretty tiny
+    snippet of the song.
+  * https://www.amazon.com/Wish-Were-Mine-Caleb-Hawley/dp/B01IX0VQRY
+  * https://www.youtube.com/watch?v=l4dx_YHjcDo
 * `Dandelion_Credits_Music_Start.txtp`
   * `298785046.wem`
   * Contains a few tracks concatenated into a single `.wem`:
