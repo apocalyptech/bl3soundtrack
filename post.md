@@ -406,15 +406,22 @@ construct the full credits music sequences, though sometimes it's a bit differen
 **Intro Cinematic**
 
 * The Heavy / Put It On The Line
-  * `Cin_RnRIntro.txtp`
-  * `666851330.wem`
   * https://www.amazon.com/Put-Line-Theme-Borderlands/dp/B07WSJTSXZ
   * https://www.youtube.com/watch?v=CdClSNDqCCg
-  * The `.wem` file is actually a ten-channel file (five stereo tracks), with
-    the music *mostly* isolated into its own stereo track, but there's a lot
-    of bleedthrough, so it can't really be properly isolated.  If you want
-    a version of this song *without* the intro sound effects and stuff, you'll
-    have to grab it from Amazon or wherever.
+  * Has two in-game data sources, actually.  First:
+    * `Map_Prologue-0360-event.txtp`
+    * `901675907.wem`
+    * This version's properly isolated and doesn't include intro cinematic
+      sound effects.  Interesting that the map event is for "Prologue,"
+      because that's The Droughts, and I don't think this song ever shows
+      up in there.
+  * And then second:
+    * `Cin_RnRIntro.txtp`
+    * `666851330.wem`
+    * This is the actual intro cinematic which includes sound effects.
+    * The `.wem` file is actually a ten-channel file (five stereo tracks), with
+      the music *mostly* isolated into its own stereo track, but there's a lot
+      of bleedthrough, so it can't really be properly isolated from this one.
 
 **Base Game Credits**
 
