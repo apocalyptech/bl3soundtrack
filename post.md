@@ -456,7 +456,8 @@ versions.
       * https://anonymousrecordings.com/music/beat-swing/
     * Robert Edwards ft. Little Violet / Puppet on a String
       * https://www.amazon.com/Beat-Swing-Remixd-Robert-Edwards/dp/B07PVC7GSY
-    * Last track is a very synthy 80s thing; no clue about that one.
+    * Dave Cleveland, Scott Dente, Ken Lewis, and Blair Masters / Slap Bracelet
+      * https://search.upright-music.dk/album/df3604c8-06d7-4afb-b661-ccdc0fbc8943
 
 **DLC2 (Guns, Love, and Tentacles) Credits**
 
