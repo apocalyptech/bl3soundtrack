@@ -512,9 +512,6 @@ versions.
 
 This is the sequence with Maya, driving a Technical through Neon Arterial on your
 way to The Rampager.  There's a single TXTP file which references four `.wem`s.
-Three of the tracks have been identified, but one continues to elude discovery:
-[reddit discussion](https://www.reddit.com/r/borderlands3/comments/d7tud2/ellies_unfinished_playlist/),
-[gearbox forums](https://forums.gearboxsoftware.com/t/please-help-me-find-the-song/3296237/11).
 
 * `Mus_City_Vault_Car_Radio_Start.txtp`
   * Animal Fiction / Hold On
