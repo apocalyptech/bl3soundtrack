@@ -1,0 +1,31 @@
+Converted from wem using:
+    https://github.com/hcs64/ww2ogg
+    https://github.com/ItsBranK/ReVorb
+
+Baby Dancer track (Max R.) concatenated (and padded w/ 2secs silence) using:
+    https://www.ffmpeg.org/
+    ffmpeg -f lavfi -i anullsrc=r=48000 -t 2 -c:a libvorbis 2secsilence.ogg
+    ffmpeg -f concat -i babydancer.txt -c copy Max_R_-_Do_It_Like_A_Superstar_BL3_mix_apoc_edit.ogg
+
+DLC1 (Dandelion) credits track split using:
+    http://mp3splt.sourceforge.net/
+    mp3splt Dandelion_Credits_Music_Start.ogg 0.0 3.30.9 7.48.9 EOF
+    
+    That util was also used to make the cuts specified below:
+
+    Sazz / Animal - Cut at 2:50
+    X-Ray Dog / Fighter - Cut at 3:00
+    X-Ray Dog / Freaks and Superpowers - Cut at 2:46
+    Parry Music / Push It Home - Cut at 1:01
+    X-Ray Dog / Want It All - Cut at 3:04
+    Caleb Hawley / Wish You Were Mine - Cut at 4:16
+    X-Ray Dog / I Want To Be Loved - Cut at 3:14
+
+Used the standard `vorbiscomment` util for tagging:
+    https://wiki.xiph.org/Vorbis-tools
+
+Finally, this was used to add ReplayGain tags to all tracks, for
+volume normalization:
+    https://sjeng.org/vorbisgain.html
+    vorbisgain -a *.ogg
+
