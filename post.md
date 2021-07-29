@@ -527,8 +527,10 @@ way to The Rampager.  There's a single TXTP file which references four `.wem`s.
     * https://music.apple.com/us/album/oh-no-ep/1360250123
   * Sazz / Animal
     * `59606564.wem`
-    * I can find nothing about this band, but this track is found on this one music licensing site:
-    * https://search.upright-music.dk/album/8dcedb7b-7974-4d62-bb64-3290c3b08843/nojs
+    * I can find nothing about this band, but the track can be found on a few
+      commercial one music licensing sites:
+      * https://search.upright-music.dk/album/8dcedb7b-7974-4d62-bb64-3290c3b08843/nojs
+      * https://app.bmgproductionmusic.co.uk/carrier/141731
   * Parry Music / Push it Home
     * `99398359.wem`
     * https://www.youtube.com/watch?v=KSR7rLXs5FA
