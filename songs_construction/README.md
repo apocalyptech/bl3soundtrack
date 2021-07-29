@@ -20,21 +20,21 @@ My proposed tracklist, which IMO works quite well:
 1. The Heavy / Put It on the Line
 2. Sazz / Animal
 3. Robert Edwards & Andrew Griffiths / Feathers
-4. X-Ray Dog / Fighter
+4. Sarah McIntosh and Thom Robson / Fighter
 5. Max R. / Do It Like a Superstar! (Borderlands 3 mix, Apocalyptech edit)
 6. Animal Fiction / Explosions
-7. X-Ray Dog / Freaks and Superpowers
+7. Sarah McIntosh and Thom Robson / Freaks and Superpowers
 8. Alicia Keys / Girl On Fire
 9. Robert Edwards ft. Little Violet / Puppet on a String
 10. Dave Cleveland, Scott Dente, Ken Lewis, and Blair Masters / Slap Bracelet
-11. X-Ray Dog / Faster Than The Man
+11. Brad Marrapodi and Sarah McIntosh / Faster Than The Man
 12. Parry Music / Push It Home
 13. Animal Fiction / Hold On
 14. The Creepshow / Blood Blood Blood
-15. X-Ray Dog / Want It All
+15. Sarah McIntosh and Thom Robson / Want It All
 16. Caleb Hawley / Wish You Were Mine
 17. Cage the Elephant / Trouble
-18. X-Ray Dog / I Want to Be Loved (Epic Version)
+18. Sarah McIntosh, Steve Williams, and Thom Robson / I Want to Be Loved (Epic Version)
 19. Robert Edwards ft. Little Violet / PiSk Swing
 20. Tyreen Calypso / Stealth Time!
 

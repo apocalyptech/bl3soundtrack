@@ -469,19 +469,30 @@ versions.
 **DLC2 (Guns, Love, and Tentacles) Credits**
 
 * `End_Credits_Music_Hibiscus_Start.txtp`
-  * X-Ray Dog / Faster Than the Man
+  * The tracks in here are often attributed to the band "X-Ray Dog," but that's
+    really a *label* which specializes in commercial for-license music.  The
+    Amazon links below make this mistake, in fact.
+  * You can see a big chunk X-Ray Dog's catalog
+    [at sourceaudio.com](https://bmgmusic.sourceaudio.com/#!label?l=551393&page=albums),
+    and you'll see that the composers vary from album to album.
+  * The two most prominent names on these tracks, Sarah Louise McIntosh and
+    Thom Robson, are [now releasing music as "Wnderland"](https://www.fadedglamour.co.uk/2020/12/wnderland-new-music-sarah-mcintosh-thom-robson.html),
+    but the formation of that band seems to post-date these track by quite a bit.
+  * Regardless, these tracks can be seen [here](https://bmgmusic.sourceaudio.com/#!explorer?b=5101899)
+    or [here](https://search.upright-music.com/album/8921d31d-93b0-4d41-9c4f-ac9011b17ef7?selected=db349c12-3fb9-4717-84cc-c55131eff59d)
+  * Brad Marrapodi and Sarah McIntosh / Faster Than the Man
     * `1050394917.wem`
     * https://www.amazon.com/dp/B07HYGYFBH/
-  * X-Ray Dog / Fighter
+  * Sarah McIntosh and Thom Robson / Fighter
     * `132660270.wem`
     * https://www.amazon.com/dp/B07HYGDPGC/
-  * X-Ray Dog / Freaks and Superpowers
+  * Sarah McIntosh and Thom Robson / Freaks and Superpowers
     * `594656018.wem`
     * https://www.amazon.com/dp/B07HYGP4M7/
-  * X-Ray Dog / Want It All
+  * Sarah McIntosh and Thom Robson / Want It All
     * `421893270.wem`
     * https://www.amazon.com/dp/B07HYHRTNC/
-  * X-Ray Dog / I Want to Be Loved (Epic Version)
+  * Sarah McIntosh, Steve Williams, and Thom Robson / I Want to Be Loved (Epic Version)
     * `464924712.wem`
     * https://www.amazon.com/dp/B07HYJ29XW/
 

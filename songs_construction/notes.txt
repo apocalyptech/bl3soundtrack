@@ -14,12 +14,12 @@ DLC1 (Dandelion) credits track split using:
     That util was also used to make the cuts specified below:
 
     Sazz / Animal - Cut at 2:50
-    X-Ray Dog / Fighter - Cut at 3:00
-    X-Ray Dog / Freaks and Superpowers - Cut at 2:46
+    Sarah McIntosh and Thom Robson / Fighter - Cut at 3:00
+    Sarah McIntosh and Thom Robson / Freaks and Superpowers - Cut at 2:46
     Parry Music / Push It Home - Cut at 1:01
-    X-Ray Dog / Want It All - Cut at 3:04
+    Sarah McIntosh and Thom Robson / Want It All - Cut at 3:04
     Caleb Hawley / Wish You Were Mine - Cut at 4:16
-    X-Ray Dog / I Want To Be Loved - Cut at 3:14
+    Sarah McIntosh, Steve Williams, and Thom Robson / I Want To Be Loved - Cut at 3:14
 
 Used the standard `vorbiscomment` util for tagging:
     https://wiki.xiph.org/Vorbis-tools
