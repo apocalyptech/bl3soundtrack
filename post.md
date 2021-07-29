@@ -547,9 +547,9 @@ were first mentioned up in the DLC1 credits section above.
 
 * Robert Edwards ft. Little Violet / PiSk Swing
   * `Mus_Sanctuary_Claptrap_Dance_Start (1754084250=2352536306).txtp`
-    * `739128134.wem`
+    * `739128134.wem` *(this is a very short end bit to the song)*
   * `Mus_Sanctuary_Claptrap_Dance_Start (1754084250=Obj_Lock2_ObjVat).txtp`
-    * `384558352.wem`
+    * `384558352.wem` *(this is the majority of the song; needs the end bit to be complete, though)*
   * https://anonymousrecordings.com/remixes/
   * https://www.amazon.com/Beat-Swing-Remixd-Robert-Edwards/dp/B07PVC7GSY
   * Remix of "Charleston Boogie" from the original Beat Swing album, by
@@ -575,6 +575,16 @@ editing.  Regardless:
   * `Mus_Baby_Dancer_Play (248720184=GrenadeLauncher_Reload_CONFI4).txtp`
     * `355525866.wem`
     * `160810524.wem`
+  * It's not super straightforward to put together a "full" song from those,
+    and there's no real "ending" part since the game just fades out.  This
+    sequence makes a pretty decent song when concatenated together, though:
+    1. `355525866.wem`
+    2. `209203382.wem`
+    3. `14961495.wem`
+    4. `160810524.wem`
+    5. `492686768.wem`
+    6. `14961495.wem`
+    7. `160810524.wem`
 
 **DLC1: Steel Dragon of Eternal Pain**
 
