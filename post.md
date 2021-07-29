@@ -549,7 +549,10 @@ were first mentioned up in the DLC1 credits section above.
   * `Mus_Sanctuary_Claptrap_Dance_Start (1754084250=2352536306).txtp`
     * `739128134.wem` *(this is a very short end bit to the song)*
   * `Mus_Sanctuary_Claptrap_Dance_Start (1754084250=Obj_Lock2_ObjVat).txtp`
-    * `384558352.wem` *(this is the majority of the song; needs the end bit to be complete, though)*
+    * `384558352.wem` *(this is the actual full song; does *not* actually
+      need the end bit to be complete, though the game cues themselves cut
+      off this file prematurely and use the end from the other `.wem`
+      instead)*
   * https://anonymousrecordings.com/remixes/
   * https://www.amazon.com/Beat-Swing-Remixd-Robert-Edwards/dp/B07PVC7GSY
   * Remix of "Charleston Boogie" from the original Beat Swing album, by
