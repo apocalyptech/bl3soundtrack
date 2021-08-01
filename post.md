@@ -602,6 +602,92 @@ editing.  Regardless:
     6. `14961495.wem`
     7. `160810524.wem`
 
+**Agent Dee Dance Music**
+
+The "Going Rogue" mission in Ambermire leads you to Agent Dee, undercover among
+the CoV and leading a dance party.  This is the track playing then.  It's
+just an instrumental.
+
+* Erik Mikkelsen / Party Night
+  * `Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp`
+  * `752876681.wem`
+  * From Anonymous Recordings' "AR004 EDM Heaven" commercial-license album
+  * https://bmgmusic.sourceaudio.com/#!details?id=21953807
+  * https://www.amazon.com/Party-Night/dp/B07F4538KV
+
+**Agonizer 9000 Song Selection**
+
+Prior to the A9K fight, you can choose one of three songs to play.  These are
+all commercially-licensed tracks for the game -- all instrumentals.  They're
+also composed of a couple different TXTPs and a few different WEMs, each.
+
+* "Blood" Option: Paul Whitehead and Emily Taylor / Plasma Storm
+  * `Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp`
+    * `383710197.wem`
+    * `102114354.wem`
+  * `Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp`
+    * `455060268.wem`
+  * From Beds & Beat's "BNB172 Neon Hyperdrive" commercial-license album
+  * https://bmgmusic.sourceaudio.com/#!details?id=19811223
+  * https://www.youtube.com/watch?v=1uPOxLqDDAY
+* "Fire Skull" Option: Richard Florio and Nick Nolan / Crank
+  * `Mus_Motorcade_Interior_A9K_Fire (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp`
+    * `72654236.wem`
+    * `551453748.wem`
+  * `Mus_Motorcade_Interior_A9K_Fire (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp`
+    * `650765155.wem`
+  * From Music Beyond's "BYND130 - Rock Aggressive" commercial-license album
+  * https://bmgmusic.sourceaudio.com/#!details?id=301192
+* "Laughing" Option: Robert Edwards / Street Level
+  * `Mus_Motorcade_Interior_A9K_Maniac (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp`
+    * `854783025.wem`
+    * `649644305.wem`
+  * `Mus_Motorcade_Interior_A9K_Maniac (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp`
+    * `903160824.wem`
+  * From Anonymous Recordings' "AR009 Trapped!" commercial-license album
+  * https://bmgmusic.sourceaudio.com/#!details?id=24904008
+  * https://www.amazon.com/Street-Level/dp/B07PN7N6SG
+
+**Sandblast Scar**
+
+During the mission where you and Vaughn are driving through Sandblast Scar,
+there's a few jazz tracks playing.  These are just instrumental and had
+escaped my notice until later on.  First up:
+
+* Christophe Dal Sasso and Dominique Mandin / Shake Up
+  * `Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step01).txtp`
+  * `576300338.wem`
+  * https://www.amazon.com/Shake-Up/dp/B08SQJWNWV
+  * The track is processed to sound rather tinny and far away
+* Nigel Thomas / Jazz City
+  * This is split over three TXTPs, though it's the middle one which has the
+    vast majority of the song:
+    * `Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step02).txtp` / `635776072.wem`
+    * `Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step03).txtp` / `609967766.wem`
+    * `Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step05).txtp` / `506780064.wem`
+  * From Production Music Online's "PMOL 197 Just Real Jazz" commercial-license album:
+    * https://search.upright-music.com/album/a52e5c9f-c463-4ace-83d2-a81614774eae/nojs
+
+**Sparrow and Grouse Songs**
+
+There's a couple of licensed songs in the game relating to Sparrow+Grouse
+quests.  They're both just instrumentals.
+
+* Therapy Music w/ Tern
+  * Suzanne Hansen / Sweet Breaths
+  * `Mus_Desolate_Therapy.txtp`
+  * `698416583.wem`
+  * From Music Beyond's "BYND299 - Eastern Hemisphere 2" commercial-license album
+  * https://bmgmusic.sourceaudio.com/#!details?id=14831407
+* "Celebration" music after saying goodbye to Typhon
+  * Mariano Dimonte, Riccardo Gibertini, Antonio Vezzano, and Marco Zaghi / Little Young Lover
+  * `Mus_Desolate_BetterTimes.txtp`
+  * `1054920389.wem`
+  * Processed to sound very different and muffled
+  * From 101 Dark Orchid Music's "101DOM057 - Vintage Beats" commercial-license album
+  * https://bmgmusic.sourceaudio.com/#!details?id=23332187
+  * https://www.amazon.com/Little-Young-Lover/dp/B07Y42GJM7
+
 **DLC1: Steel Dragon of Eternal Pain**
 
 This is the metalhead who gets annoyed by Digby Vermouth recording his new track,

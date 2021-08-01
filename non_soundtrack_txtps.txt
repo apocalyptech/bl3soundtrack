@@ -72,7 +72,16 @@ Part of the Rampager's music, but doesn't show up in the soundtracks.
 'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step03).txtp'
 'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step05).txtp'
 Sax-and-drums free jazz for the Sandblast Scar mission run.  Maybe this is actually
-licensed from something, actually?
+licensed from something, actually?  Yes!  It is.
+Step 1: Christophe Dal Sasso and Dominique Mandin / Shake Up
+    - From a VA album "Brooklyn Coffee"
+    - https://www.amazon.com/Shake-Up/dp/B08SQJWNWV
+    - This one is processed to sound kind of tinny and far away
+Step 2: Drum solo from Step 3
+Step 3: Nigel Thomas / Jazz City
+    - From PMOL 179 Just Real Jazz (production music online)
+    - https://search.upright-music.com/album/a52e5c9f-c463-4ace-83d2-a81614774eae/nojs
+Step 5: Ending of Step 3
 
 'Mus_Crater_CIN_Rose_Start (Mus_Geranium_Crater_Boss=Rose_Intro).txtp'
 'Mus_Crater_CIN_Rose_Start (Mus_Geranium_Crater_Boss=Ruiner_Intro).txtp'
@@ -106,11 +115,19 @@ Extra music from Devil's Razor which doesn't appear to be on the soundtracks.
 
 Mus_Desolate_BetterTimes.txtp
 Music from the end of the sidequest where Typhon says goodbye to Sparrow and Grouse.
-Could this be licensed, actually?
+Processed to sound very distant and muffled.
+Could this be licensed, actually?  It is!
+Mariano Dimonte, Riccardo Gibertini, Antonio Vezzano, and Marco Zaghi / Little Young Lover
+ - From 101 Dark Orchid Music's VA "101DOM057 - Vintage Beats" album
+ - https://bmgmusic.sourceaudio.com/#!details?id=23332187
+ - https://www.amazon.com/Little-Young-Lover/dp/B07Y42GJM7
 
 Mus_Desolate_Therapy.txtp
 Music from the Sparrow/Grouse sidequest involving Tern.
-Could this be licensed, actually?
+Could this be licensed, actually?  It is!
+Vicki Suzanne Hansen / Sweet Breaths
+ - From Music Beyond's VA album "BYND299 - Eastern Hemisphere 2"
+ - https://bmgmusic.sourceaudio.com/#!details?id=14831407
 
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_01).txtp'
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_02).txtp'
@@ -136,7 +153,11 @@ somewhere.
 
 'Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp'
 Agent Dee's dance music during the Going Rogue mission in Ambermire.
-Could this be licensed, actually?
+Could this be licensed, actually?  It is!
+Erik Mikkelsen / Party Night
+ - From Anonymous Recordings' VA album "AR004 EDM Heaven"
+ - https://bmgmusic.sourceaudio.com/#!details?id=21953807
+ - https://www.amazon.com/Party-Night/dp/B07F4538KV
 
 'Mus_Marshfields_Tannis_Egg_Start (Mus_Scripted_Marshfields=Tannis_Egg_Intro).txtp'
 Weird music for Tannis's fish-riding easter egg in Ambermire.
@@ -174,11 +195,29 @@ long).
 
 'Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
 'Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
+"Blood" option you have for music, prior to the Agonizer 9K fight.  Commercially
+licensed, as it turns out!
+Paul Whitehead and Emily Taylor / Plasma Storm
+ - From Beds & Beat's "BNB172 Neon Hyperdrive" commercial-license album
+ - https://bmgmusic.sourceaudio.com/#!details?id=19811223
+ - https://www.youtube.com/watch?v=1uPOxLqDDAY
+
 'Mus_Motorcade_Interior_A9K_Fire (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
 'Mus_Motorcade_Interior_A9K_Fire (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
+"Fire Skull" option you have for music, prior to the Agonizer 9K fight.  Commercially
+licensed, as it turns out!
+Richard Florio and Nick Nolan / Crank
+ - From Music Beyond's "BYND130 - Rock Aggressive" commercial-license album
+ - https://bmgmusic.sourceaudio.com/#!details?id=301192
+
 'Mus_Motorcade_Interior_A9K_Maniac (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
 'Mus_Motorcade_Interior_A9K_Maniac (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
-The three music choices you've got, prior to the Agonizer 9K fight.
+"Laughing" option you have for music, prior to the Agonizer 9K fight.  Commercially
+licensed, as it turns out!
+Robert Edwards / Street Level
+ - From Anonymous Recordings' "AR009 Trapped!" commercial-license album
+ - https://bmgmusic.sourceaudio.com/#!details?id=24904008
+ - https://www.amazon.com/Street-Level/dp/B07PN7N6SG
 
 'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Active).txtp'
 'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Completed).txtp'
