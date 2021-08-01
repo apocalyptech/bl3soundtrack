@@ -442,6 +442,10 @@ Year: 2019
 'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
 'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
 'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
 
 2. Finishing Move Inc. / The Devil's Razor Fights Back
 (does not appear to be in the data)

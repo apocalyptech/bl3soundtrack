@@ -1,0 +1,285 @@
+Music-related TXTP files which seem to *not* appear on the official
+soundtracks.  (Specifically ones which seem official-soundtrack-worthy,
+so *not* Crimson Radio or other "real" band songs.)
+
+===========================================================
+
+'Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_Commercial_Break).txtp'
+Mus_Motorcade_Interior-0237-event
+Just some chipper bouncy commercial-type music.  First is 30secs; second is 1:15,
+though it sounds just like it's the same thing looped.
+
+'Mus_Alisma_Anger_Start (Mus_Alisma_Override=on)[Alisma_Mus_System_Combat=-] {s}.txtp'
+Pretty standard DLC4-sounding soundtrack stuff.
+
+'Mus_Alisma_Chase_Anomaly_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-).txtp'
+'Mus_Alisma_Chase_Anomaly_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-).txtp'
+Increasingly glitchy and weird versions of the non-ThreatLevel version (which
+*is* in the official soundtrack).  Honestly not especially notable on its own,
+apart from that it sounds kind of neat.
+
+'Mus_Alisma_Sanctum_WarmWelcome_Start [Mus_Als_SnctmWW_Glitch=BROKEN].txtp'
+'Mus_Alisma_Sanctum_WarmWelcome_Start [Mus_Als_SnctmWW_Glitch=Hvy].txtp'
+'Mus_Alisma_Sanctum_WarmWelcome_Start [Mus_Als_SnctmWW_Glitch=Med].txtp'
+Increasingly glitchy and weird versions of the non-Glitch version (which
+*is* in the official soundtrack).  Honestly not especially notable on its own,
+apart from that it sounds kind of neat.
+
+'Mus_Bar_Start (Mus_Hibiscus_Bar=Mus_Bar_DarkMix).txtp'
+DJ Midnight's post-sidemission "dark" mix.
+
+'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+Pretty standard-sounding Cartels loop.
+
+'Mus_CircleOfSlaughter_Stinger_01 {r}.txtp'
+Just a tiny little guitar riff
+
+'MUS_CitizenScience (Citizen_Science_MUS=-) (Citizen_Science_MUS=Attract).txtp'
+'MUS_CitizenScience (Citizen_Science_MUS=GamePlay) (Citizen_Science_MUS=Attract).txtp'
+Citizen Science machine chiptunes.
+
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+Pretty standard soundtrack stuff; I didn't hear it anywhere in the soundtracks though.
+(Could be I missed 'em, of course)
+
+'Mus_City_S00_Sparse {r}.txtp'
+'MUS_Desert_Sparse_Ambient_Play {r}.txtp'
+'Mus_DesertVault-0325-event {r}.txtp'
+'Mus_Monastery_S00_Sparse {r}.txtp'
+'Mus_Prison_S00_Sparse {r}.txtp'
+'Mus_Recruitment_Amb_Atmos {r}.txtp'
+'Mus_Recruitment_Amb_Cymbals_Play {r}.txtp'
+'Mus_Recruitment_Amb_Percussion_Play {r}.txtp'
+'Mus_Watership_S00_Sparse {r}.txtp'
+A few seconds of sort of atmospheric stuff each; not especially interesting.
+
+Mus_City_ShoppingMall.txtp
+Sort of muzak, apparently tied to Meridian Metroplex.  Processed so it sounds like it's
+coming out of a pretty tinny speaker; honestly probably not super worth putting in
+on an unofficial sountrack expansion.
+
+'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_01).txtp'
+Part of the Rampager's music, but doesn't show up in the soundtracks.
+
+'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step01).txtp'
+'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step02).txtp'
+'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step03).txtp'
+'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step05).txtp'
+Sax-and-drums free jazz for the Sandblast Scar mission run.  Maybe this is actually
+licensed from something, actually?
+
+'Mus_Crater_CIN_Rose_Start (Mus_Geranium_Crater_Boss=Rose_Intro).txtp'
+'Mus_Crater_CIN_Rose_Start (Mus_Geranium_Crater_Boss=Ruiner_Intro).txtp'
+Mus_CraterBoss_Ambiance.txtp
+Apparently from the cinematics (and then just general ambience) around the Ruiner
+fight at the end of DLC3 -- the Crater's Edge track from the DLC3 soundtrack is
+short enough that I'm pretty sure that these aren't actually in there.  It's
+pretty typical DLC3 soundtrack stuff, though.
+
+'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Amb).txtp'
+'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_01).txtp'
+'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_02).txtp'
+'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_03).txtp'
+'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+As the names suggest, t his is probably leftover music from something demoy?
+They're referenced from the Cathedral of the Twin Gods music objects, though.
+
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+Extra music from Devil's Razor which doesn't appear to be on the soundtracks.
+
+Mus_Desolate_BetterTimes.txtp
+Music from the end of the sidequest where Typhon says goodbye to Sparrow and Grouse.
+Could this be licensed, actually?
+
+Mus_Desolate_Therapy.txtp
+Music from the Sparrow/Grouse sidequest involving Tern.
+Could this be licensed, actually?
+
+'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_01).txtp'
+'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_02).txtp'
+'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_03).txtp'
+'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_04).txtp'
+Music related to opening the Diamond loot chest
+
+'Mus_FrostSite_BrassChoir_Play {r}.txtp'
+'Mus_FrostSite_Metals_Play {r}.txtp'
+Some quietish brass swells.  Might actually be incorporated into the "Arms Race"
+track, but it's a bit hard to tell.  Quite negligible on its own, though.  (Each
+is like 30 seconds)
+
+Mus_FrostSite_GameShowIntro_Play.txtp
+Mus_FrostSite_GameShowPregame_Play.txtp
+Perky gameshow music stuff (quite short; each under 30 seconds)
+
+'Mus_Killavolt_Moxxi_Theme_Start (Mus_Scripted_Towers=Moxxi_Music_NoSpeaker_On).txtp'
+'Mus_Killavolt_Moxxi_Theme_Start (Mus_Scripted_Towers=Moxxi_Music_On) {s}.txtp'
+Music in Moxxi's Bar in Lectra City.  The two are basically identical except
+the second is processed to sound like it's coming out of a small speaker
+somewhere.
+
+'Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp'
+Agent Dee's dance music during the Going Rogue mission in Ambermire.
+Could this be licensed, actually?
+
+'Mus_Marshfields_Tannis_Egg_Start (Mus_Scripted_Marshfields=Tannis_Egg_Intro).txtp'
+Weird music for Tannis's fish-riding easter egg in Ambermire.
+
+'Mus_Menu-0017-event (Mus_MenuMap=Mus_MenuMap_Option).txtp'
+No idea; related to menu music somehow, but I've never heard it.
+
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+Some Konrad's Hold music which doesn't seem to be on the official soundtrack.
+
+Mus_Mission_AtlasHQ_Musak_Lp.txtp
+Mus_Mission_PortaPrison_Potty_Bossa_Lp_Start.txtp
+Atlas HQ-related muzak -- they're basically identical except the second is
+quite distorted, and processed to sound like it's coming out of a small
+speaker inside a porta-potty.
+
+Mus_Mission_PortaPrison_Radio_Rock_Lp_Start.txtp
+Sort of rock song, though it's processed *very* heavily to sound like
+it's coming out of a small speaker from inside a porta-potty.
+
+Mus_Motorcade_Festival_CageOTinks_DirtyLove.txtp
+Music from the Tink club in Carnivora.  Based on Moxxi's BL2 bar song.
+
+Mus_Motorcade_Festival_GameShow_Theme_Start.txtp
+Mus_Motorcade_Festival_GameShow_Timer_Start.txtp
+Gameshow music with Zahnzi -- quite short each, and processed to sound rather
+tinny.
+
+'Mus_Motorcade_Festival_Misc {r}.txtp'
+Stereotypical carnival organ music.  Pretty distorted (also seven minutes
+long).
+
+'Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
+'Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
+'Mus_Motorcade_Interior_A9K_Fire (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
+'Mus_Motorcade_Interior_A9K_Fire (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
+'Mus_Motorcade_Interior_A9K_Maniac (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
+'Mus_Motorcade_Interior_A9K_Maniac (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
+The three music choices you've got, prior to the Agonizer 9K fight.
+
+'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Active).txtp'
+'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Completed).txtp'
+The Tink "rave" music during the Homestead side missions.  The second is a
+processed version of the first which just sounds distorted, further away,
+and from a shittier speaker.
+
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_08) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_09) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_10) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+Splinterlands music.  This seems to just be absent from the soundtracks entirely?
+Could be I missed something.
+
+'Mus_Orbital_Claptrap_Dubstep_Start (Mus_Scripted_Orbital_Claptrap=Claptrap_Dubstep_On).txtp'
+Chipper dancey track; actually not super dubsteppy for the most part.  Honestly
+don't remember where this shows up in the game?  In Skywell-27, theoretically.
+
+'Mus_Orbital_Digby_Start (Mus_Scripted_Orbital_Platform=Digby_On).txtp'
+Track that Rhys Ball puts on during that Katagawa Ball fight.
+
+'Mus_Orbital_Digby_Start (Mus_Scripted_Orbital_Platform=Digby_On).txtp'
+Duplicate of Supernova Dreamsicle (which *is* on the official soundtracks),
+mixed a little differently (sounds a bit boomier, as if being played on
+some speakers in a room).
+
+'Mus_Prologue-0534-event (Mus_System_Sections=Mus_Section_00).txtp'
+'Mus_Prologue-0534-event (Mus_System_Sections=Mus_Section_01).txtp'
+Droughts music!  Seems to be totally absent from the official soundtracks.
+
+'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_01)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
+'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_02)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
+'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_03)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
+Mouthpiece fight -- seems absent from the official soundtracks.
+
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s}.txtp'
+'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_09) {s}.txtp'
+More Droughts music -- not in the official soundtracks.
+
+Mus_RumbleInJungle_KingBobo_TribalDrums_Layered.txtp
+Drumming, clearly from the Rumble in the Jungle quest, and probably from
+when King Bobo appears.  As a standalone track, honestly not too interesting.
+
+'Mus_Wetlands_Vault_EdenBoss_Start (Mus_Scripted_Wetlands_Vault_EdenBoss=Mus_Wetlands_Vault_EdenBoss_Fake_On).txtp'
+I believe this is from the Guardian fight right before Graveward.
+
+'Play_Mus_NekroMystery (Mus_NekroMystery=Cemetery).txtp'
+Real subtle ambient type stuff; 4:30 long.  Pleasant enough if you're into it, but
+probably not really soundtrack-worthy.
+
+Video_ThePlan_Phase01.txtp
+Video_ThePlan_Phase02.txtp
+Video_ThePlan_Phase03.txtp
+Backing tracks for Timothy's "The Plan" mission stuff.  Pretty fragmentary and
+weird when taken out of context.
+
