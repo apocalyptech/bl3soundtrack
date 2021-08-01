@@ -1,0 +1,1374 @@
+This is a mapping of which "official" soundtrack tracks map to which music
+cues in the BL3 game data itself.  The *raw* BL3 game data audio arrives
+as `.wem` and `.bnk` files with inscrutable random numbers as the filenames.
+The `wwiser` can interpret those `.bnk` files, though, and output "TXTP"
+files which have sensible names (so long as wwiser is supplied with a helper
+file which has suggested names in it).  The TXTP files will reference the `.wem`
+files necessary to make up the full in-game cue, so you can walk back from
+the TXTP to the constituent WEMs.
+
+For the majority of the soundtrack-type music, these cues/TXTP files will
+layer up a number of WEMs, and generally even pull from a random pool of
+sound files for each component.  So a single 30 second loop might be comprised
+of, say, seven layers (melody, bass, drums, etc), each with slightly different
+randomly-chosen options, so there's often a lot of variability even with
+seemingly-short files.  This does make reconstructing which files belong to
+which soundtrack tracks a little daunting, but once you get used to how it
+fits together, it's often not too bad.
+
+Anyway, this file's mappings should be *pretty* good, but note that there may
+very well be soundtrack tracks which include audio not found in the game
+data, and there might be audio in the game data that's not in the soundtracks,
+even when there's a seemingly-strong mapping here.  It's also entirely possible
+that I've made mistakes here and there, so let me know if so.
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3 (disc 1)
+Year: 2019
+
+1. Michael McCann / Sanctuary 3
+'Mus_Sanctuary_3_Start (3782247590=736414270).txtp'
+
+2. Michael McCann / Landing on Athenas
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+
+3. Michael McCann / Liberating Athenas
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Monastery_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+4. Michael McCann / Atlas HQ - State of The Art
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+5. Michael McCann / Atlas HQ - Attacked
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Atlas_HQ_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+
+6. Michael McCann / Neon Arterial - Upper City
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+7. Michael McCann / Lectra City
+(shares a *lot* of components with "Lectra City After Glow" (and both seem to have a bit
+more than just these audio files))
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+
+8. Michael McCann / Lectra City - The Games Begin
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+
+9. Michael McCann / Skywell 27 - Katagawa's Sphere
+'Mus_Orbital_Boss_Start (Mus_Scripted_Orbital_Platform=Phase_01).txtp'
+'Mus_Orbital_Boss_Start (Mus_Scripted_Orbital_Platform=Phase_02).txtp'
+
+10. Michael McCann / Skywell 27 - Beneath The Pleasure Barge
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_09) {s}.txtp'
+
+11. Michael McCann / Skywell 27 - To Rhys's Rescue
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+12. Michael McCann / Skywell 27 - Katagawa's Minions
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+
+13. Michael McCann / Skywell 27 - Maliwan Pushes Hard
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Orbital_Platform_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+14. Michael McCann / Metroplex - Survival Questionable
+'Mus_City_Play (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+
+15. Michael McCann / Metroplex - Meet The Resistance
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+
+16. Michael McCann / Metroplex - Beyond the Ratches
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+17. Michael McCann / The Rampager - Part 1
+'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_02).txtp'
+
+18. Michael McCann / The Rampager - Part 2
+'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_03).txtp'
+
+19. Michael McCann / Neon Arterial - Ending the Family Presence
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+20. Michael McCann / Neon Arterial - Lower Depths
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_City_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+
+21. Michael McCann / Captain Traunt Falls
+'Mus_Monastery_Boss_Play (Mus_Scripted_Monastery_Boss=Section_01).txtp'
+'Mus_Monastery_Boss_Play (Mus_Scripted_Monastery_Boss=Section_02) {r}.txtp'
+
+22. Michael McCann / Metroplex - Fighting Maliwan
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_City_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+
+23. Michael McCann / Metroplex - Gigamind
+'Mus_City_Boss_Gigamind_Play (Mus_Scripted_City=Mus_City_Gigamind_Phase01).txtp'
+'Mus_City_Boss_Gigamind_Play (Mus_Scripted_City=Mus_City_Gigamind_Phase02).txtp'
+
+24. Michael McCann / Lectra City After Glow
+(shares a *lot* of components with "Lectra City" (and both seem to have a bit
+more than just these audio files))
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Towers_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+
+25. Michael McCann / Atlas HQ - Katagawa Gets Served
+'Mus_AtlasHQ_Boss_Start (Mus_Scripted_Atlas_HQ=Phase_01).txtp'
+
+26. Michael McCann / Killavolt Wins His Prize
+'Mus_Killavolt_Boss_Start (Mus_Scripted_Towers=Phase_01).txtp'
+'Mus_Killavolt_Boss_Start (Mus_Scripted_Towers=Phase_02).txtp'
+
+27. Mike Jones / Sanctuary 3 - Moxxi's Interlude 1
+Mus_Moxxi_Bar_Piano_Play.txtp
+(part 1)
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3 (disc 2)
+Year: 2019
+
+1. Jesper Kyd / MainMenu (Day)
+'Mus_Menu_Map_Start (Mus_MenuMap=Mus_MenuMap_Option) {s}.txtp'
+
+2. Jesper Kyd / Exploring The Dormant Ship
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+3. Jesper Kyd / The Bandits at Jakob's Estate
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+4. Jesper Kyd / The Creatures of Floodmoor Basin
+'Mus_Wetlands_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+5. Jesper Kyd / The Warden of The Anvil
+'Mus_Prison_MiniBoss_Start (Mus_Scripted_Prison=Mus_Prison_MiniBoss_On).txtp'
+
+6. Jesper Kyd / Enter Floodmoor Basin
+'Mus_Wetlands_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+7. Jesper Kyd / Tension in the Embermire
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+8. Jesper Kyd / GenIVIV Goes Down
+'Mus_Watership_Boss_Start (Mus_Scripted_Watership=Phase_01).txtp'
+
+9. Jesper Kyd / Arrival At The Anvil
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+
+10. Jesper Kyd / Riot at The Anvil
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Prison_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+
+11. Jesper Kyd / Spaceships in the Swamp
+'Mus_Watership_Intro_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Watership_Post_Ship_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+12. Jesper Kyd / The Dormant Ship Attacks
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Watership_Internal_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+13. Jesper Kyd / The Puzzle at Jakob's Estate
+(can't seem to find this one at all)
+
+14. Jesper Kyd / Enter The Embermire
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+15. Jesper Kyd / The Ambush at Jakob's Estate
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s}.txtp'
+
+16. Jesper Kyd / A Self Guided Tour at Jakob's Estate
+'Mus_Mansion_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+
+17. Jesper Kyd / Creatures of the Embermire
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Marshfields_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+18. Jesper Kyd / Saurians Attack in Floodmoor Basin
+'Mus_Wetlands_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+19. Jesper Kyd / Raging Out in Jakob's Manner
+(can't seem to find this one in the data)
+
+20. Jesper Kyd / Exploring the Powder Cellars
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+
+21. Jesper Kyd / Treasures of the Jakob's Vault
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Wetlands_Vault_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+22. Jesper Kyd / Aurelia's Last Breath
+'Mus_Wetlands_Vault_MiniBoss_Play (Mus_Scripted_Wetlands_Vault=Mus_Wetlands_Vault_MiniBoss_On).txtp'
+
+23. Jesper Kyd / The Floating Tomb Fights Back
+'Mus_Wetlands_Vault_EdenBoss_Start (Mus_Scripted_Wetlands_Vault_EdenBoss=Mus_Wetlands_Vault_EdenBoss_On).txtp'
+
+24. Jesper Kyd / The Floating Tomb - Tranquility Achieved
+'Mus_Wetlands_Vault_EdenBoss_Start (Mus_Scripted_Wetlands_Vault_EdenBoss=Mus_Wetlands_Vault_EdenBoss_On).txtp'
+
+25. Jesper Kyd / MainMenu (Night)
+'Mus_Menu_Map_Start (Mus_MenuMap=Mus_MenuMap_Option) {s}.txtp'
+
+26. Jesper Kyd / The Drunk Violinist Entertains
+(this doesn't appear to be in the data (have never heard it in-game, so not surprising))
+
+27. Mike Jones / Sanctuary 3 - Moxxi's Interlude 2
+Mus_Moxxi_Bar_Piano_Play.txtp
+(part 2)
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3 (disc 3)
+Year: 2019
+
+1. Finishing Move Inc. / Konrad's Hold - Arrival
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+2. Finishing Move Inc. / The Devil's Razor Fights Back
+(does not appear to be in the data)
+
+3. Finishing Move Inc. / Welcome to the Devil's Razor
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+4. Finishing Move Inc. / Devil's Razor - Close Shave
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+(plus some stuff from sections 1+2, perhaps...)
+
+5. Finishing Move Inc. / Carnivora RIDES!
+'Mus_Motorcade_Veh_Boss_Start (Mus_Scripted_Motorcade_Veh_Boss=Phase_01).txtp'
+Play_Mus_SacrificeBoss.txtp
+(that last one probably just mislabelled)
+
+6. Finishing Move Inc. / Cathedral Of The Twin Gods
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+
+7. Finishing Move Inc. / The Cathedral Calls To The Family
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+8. Finishing Move Inc. / The Cathedral's Best Arrive
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Desert_Vault_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+9. Finishing Move Inc. / The Proving Grounds Mystery
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+10. Finishing Move Inc. / The Proving Grounds Exam
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Proving_Grounds_01_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+11. Finishing Move Inc. / The Proving Grounds Final Exam
+(does not appear to be in the data)
+
+12. Finishing Move Inc. / Marcus Tells a Story
+(backing track from MARCUS_INTRO.mp4; doesn't appear to be isolated from the voiceovers, though)
+
+13. Finishing Move Inc. / Into The Guts of Carnivora
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+14. Finishing Move Inc. / Carnivora's Digestion Intensifies
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+
+15. Finishing Move Inc. / Carnivora Put On Its Big Pants
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Motorcade_Interior_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+16. Finishing Move Inc. / The Carnivora Show LIVE
+'Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_01).txtp'
+'Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_02).txtp'
+'Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_03).txtp'
+
+17. Finishing Move Inc. / The End Of Troy
+'Mus_Desert_Boss_Troy_Fight_Start (Mus_Scripted_Desert_Vault=Mus_Desert_Boss_Invulnerable).txtp'
+'Mus_Desert_Boss_Troy_Fight_Start (Mus_Scripted_Desert_Vault=Mus_Desert_Boss_Phase_01).txtp'
+'Mus_Desert_Boss_Troy_Fight_Start (Mus_Scripted_Desert_Vault=Mus_Desert_Boss_Phase_02).txtp'
+'Mus_Desert_Boss_Troy_Fight_Start (Mus_Scripted_Desert_Vault=Mus_Desert_Boss_Phase_03).txtp'
+
+18. Finishing Move Inc. / The End of Tyreen
+'Mus_FinalBoss_Start (Mus_Scripted_FinalBoss=DownState).txtp'
+'Mus_FinalBoss_Start (Mus_Scripted_FinalBoss=Phase_01).txtp'
+'Mus_FinalBoss_Start (Mus_Scripted_FinalBoss=Phase_02).txtp'
+'Mus_FinalBoss_Start (Mus_Scripted_FinalBoss=Phase_03).txtp'
+
+19. Finishing Move Inc. / Konrad's Hold - The Depths
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Mine_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+
+20. Finishing Move Inc. / The Firehawk Rises
+Cin_TheEnd.txtp
+(in a multitrack `.wem` that's slightly more difficult to pick apart, though, and might
+not be properly isolated)
+
+21. Finishing Move Inc. / The End of Troy - Remix
+(not in data (though obvs. based on the originals, which are))
+
+22. Finishing Move Inc. / The End of Tyreen - Remix
+(not in data (though obvs. based on the originals, which are))
+
+23. Mike Jones / Sanctuary 3 - Moxxi's Interlude 3
+Mus_Moxxi_Bar_Piano_Play.txtp
+(part 3)
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3 (disc 4)
+Year: 2019
+
+1. Raison Varner / The Arrival
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+
+2. Raison Varner / The Arrival... Intensifies
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+(these two txtps are *highly* variable, fwiw; they're each a 22sec loop but they also make up
+"Maliwan is Here," below)
+
+3. Raison Varner / A Forgotten Space
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+4. Raison Varner / Maliwan Is Here
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Desolate_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+(these two txtps are *highly* variable, fwiw; see notes above)
+
+5. Raison Varner / In Case It Wasn't Clear... TRAUNT!
+'Mus_Desolate_Traunt_Start (Mus_Scripted_Desolate=Mus_Desolate_Traunt_Boss_Start).txtp'
+
+6. Raison Varner / The Machine Crypt
+'Mus_Crypt_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+(This, and the other Mus_Crypt_Start txtps, are *highly* variable.  This one's a 40sec loop,
+the others are just 20, but there's a ton of variability.  There may be some bleedthrough between
+tracks here as well; it's pretty difficult to tell.  I think that these groupings aren't
+awful, though.)
+
+7. Raison Varner / Action At The Machine
+'Mus_Crypt_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+
+8. Raison Varner / The Family Wants The Machine
+'Mus_Crypt_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+
+9. Raison Varner and Julian Peterson / Digby Vermouth - Supernova Dreamsicle
+'Mus_Orbital_Digby_Start (Mus_Scripted_Orbital_Platform=Digby_On).txtp'
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3: Moxxi's Heist of the Handsome Jackpot
+Year: 2019
+
+1. Michael McCann / The Grand Opening
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+2. Michael McCann / The Grand Opening Heats Up
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Intro_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+3. Michael McCann / Welcome to the Spendopticon
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+
+4. Michael McCann / Spendopticon Assembles
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+
+5. Michael McCann / Spendopticon Full Danger Mode
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Dandelion_Strip_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+
+6. Michael McCann / Impound Deluxe
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+7. Michael McCann / Impound Denizens Attack
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+
+8. Michael McCann / Impound Pound Down
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_07) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
+'Mus_Dandelion_Impound_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_09) {s} {r}.txtp'
+
+9. Jesper Kyd / Welcome to Jack's Secret
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+10. Jesper Kyd / The Replicator Lands
+'Mus_Dandelion_Core_Boss_Play (Mus_Dandelion_Core_Boss=Mus_Core_Boss_Phase_01).txtp'
+
+11. Jesper Kyd / The Compactor's Trashmen Attack
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+
+12. Jesper Kyd / Welcome to the Compactor
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+13. Jesper Kyd / The Compactor Will Junk You
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Dandelion_TrashTown_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+14. Jesper Kyd / Trashlantis
+Mus_Dandelion_Trash_Utopia_LP.txtp
+
+15. Jesper Kyd / The Compactor's Last Squeeze
+'Mus_Dandelion_Trash_Boss_Start (Mus_Dandelion_TrashTown=Mus_Trashtown_Boss).txtp'
+
+16. Jesper Kyd / Welcome to the VIP Tower
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+17. Jesper Kyd / Jack's Secret Raises the Red Alarm
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+18. Jesper Kyd / Jack's Secret is Aware
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_Core_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+19. Jesper Kyd / VIP Tower Questions Your Status
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+20. Leonhard Van Voorst / VIP Tower Sends the Bouncers
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Dandelion_Tower_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+
+21. Leonhard Van Voorst / The Handsome Jackbot
+'Mus_Dandelion_Tower_Boss_Start (Mus_Dandelion_Tower_Suite=Mus_Tower_Boss_Phase_01).txtp'
+'Mus_Dandelion_Tower_Boss_Start (Mus_Dandelion_Tower_Suite=Mus_Tower_Boss_Phase_02).txtp'
+'Mus_Dandelion_Tower_Boss_Start (Mus_Dandelion_Tower_Suite=Mus_Tower_Boss_Phase_03).txtp'
+
+22. Leonhard Van Voorst / Freddie's Pouch Got Punched
+'Mus_Dandelion_Tower_Boss_Start (Mus_Dandelion_Tower_Suite=Mus_Tower_Boss_MiniBoss).txtp'
+
+23. Raison Varner / The Pentatonic Dragon
+MUS_Digby_Dark_and_Hard.txtp
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3: Guns, Love and Tentacles
+Year: 2020
+
+1. Jesper Kyd / The Ice Desert of Xylourgos
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+2. Jesper Kyd / The Nomads of Skittermaw
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+3. Jesper Kyd / The Rage of the Skittermaw Nomads
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Lake_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+4. Jesper Kyd / Arrival at Cursehaven
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+5. Jesper Kyd / The Unwelcome Cursehaven
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+6. Jesper Kyd / Cursehaven Has a Secret
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Village_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+7. Jesper Kyd / The Posession of Wainwright
+CIN2070_WainwrightGetsCursed.txtp
+(.wem is a multitrack .wav file which might not have the best isolation, though)
+
+8. Jesper Kyd / The Lodge
+'Mus_Bar_Start (Mus_Hibiscus_Bar=Mus_Bar_On).txtp'
+
+9. Jesper Kyd / The Ritual
+'Mus_Village_Boss_Start (Mus_Hibiscus_VillageBoss=Mus_Village_Boss_On).txtp'
+
+10. Jesper Kyd / The Archive
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+
+11. Jesper Kyd / Archive Hostiles 1
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+12. Leonhard van Voorst / Archive Hostiles 2
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Archive_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+
+13. Leonhard van Voorst / The Keeper of the Archive
+'Mus_Archive_Boss_Start (Mus_Hibiscus_Boss_Generic=Mus_Boss_On).txtp'
+
+14. Jesper Kyd / Entering The Cankerwood
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+15. Jesper Kyd / Trouble in the Cankerwood
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+16. Jesper Kyd / Deep in the Cankerwood
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Woods_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+17. Jesper Kyd / Windigo Emerges
+'Mus_Woods_Boss_Start (Mus_Hibiscus_Boss_Generic=Mus_Boss_On).txtp'
+
+18. Jesper Kyd / Eridian Ruins
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+19. Leonhard van Voorst / Negul Neshai
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+20. Leonhard van Voorst / Fighting in the Peaks of Negul Neshai
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Camp_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+21. Leonhard van Voorst / Deathtrap's Savior
+'Mus_Camp_Boss_Start (Mus_Hibiscus_Boss_Generic=Mus_Boss_On).txtp'
+
+22. Jesper Kyd / Heart of the Mountain
+'Mus_Venue_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Venue_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+
+23. Jesper Kyd / Guns and Tentacles
+'Mus_Venue_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+24. Leonhard van Voorst / Eleanor Greets You
+'Mus_Hibiscus_Final_Boss_Start (Mus_Hibiscus_FinalBoss=Mus_Hibiscus_FinalBoss_Phase_01).txtp'
+'Mus_Hibiscus_Final_Boss_Start (Mus_Hibiscus_FinalBoss=Mus_Hibiscus_FinalBoss_Phase_02).txtp'
+
+25. Leonhard van Voorst / Vincent Joins the Fray
+'Mus_Hibiscus_Final_Boss_Start (Mus_Hibiscus_FinalBoss=Mus_Hibiscus_FinalBoss_Phase_03).txtp'
+
+26. Jesper Kyd / Shattered Hearts
+
+========================================================================================
+
+Artist: Various
+Album: Borderlands 3: Bounty Of Blood
+Year: 2020
+
+(Associations in general in here are more or less guessed-at.  The long track lengths
+and general abstract/ambient nature of the soundtrack doesn't really encourage me to
+check this stuff out (though don't get me wrong, I totally love it).  Anyway, there
+could very well be soundtrack stuff that's not in the game, or game stuff that's not
+in the soundtrack, and some of these mappings might not be appropriate.)
+
+1. Raison Varner / Intro
+(not sure honestly; there's a lot to dig through here)
+
+2. Julian Peterson / Vestige
+MUS_Town_amb_WalkToTown.txtp
+MUS_Town_amb_Windflute.txtp
+MUS_Town_Celebration.txtp
+MUS_Town_DeathOfSheriff.txtp
+MUS_Town_PlayerPiano_Damaged.txtp
+MUS_Town_PlayerPiano.txtp
+MUS_Town_ScriptedCombat.txtp
+
+3. Julian Peterson / The Blastplains
+Mus_Frontier_Amb_PulsarStrings.txtp
+MUS_Frontier_Ambiance_Strings_141129.txtp
+MUS_Frontier_Ambiance_Strings_163903.txtp
+MUS_Frontier_Ambiance_Strings_383770.txtp
+MUS_Frontier_Ambiance_Strings_417021.txtp
+MUS_Frontier_Ambiance_Strings_465326.txtp
+MUS_Frontier_Ambiance_Strings_49237.txtp
+MUS_Frontier_Ambiance_Strings_507535.txtp
+MUS_Frontier_Ambiance_Strings_515244.txtp
+MUS_Frontier_Ambiance_Strings_531566.txtp
+MUS_Frontier_Ambiance_Strings_546344.txtp
+MUS_Frontier_Ambiance_Strings_626729.txtp
+MUS_Frontier_Ambiance_Strings_692507.txtp
+MUS_Frontier_Ambiance_Strings_729056.txtp
+MUS_Frontier_Ambiance_Strings_7871.txtp
+MUS_Frontier_Ambiance_Strings_792170.txtp
+MUS_Frontier_Ambiance_Strings_913702.txtp
+MUS_Frontier_Ambiance_Strings_961066.txtp
+MUS_Frontier_Ambiance_Strings_969836.txtp
+MUS_Frontier_Ambiance_Strings_976222.txtp
+MUS_Frontier_Combat_SwirlingStrings.txtp
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+4. Raison Varner / Ashfall Peak
+'Mus_Lodge_Boss_Start (Mus_Geranium_Boss_Generic=Mus_Boss_On).txtp'
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+
+5. Raison Varner / Obsidian Forest
+'Mus_Forest_Boss_Start (Mus_Geranium_Boss_Generic=Mus_Boss_On).txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+
+6. Julian Peterson / Bloodsun Canyon
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Boss) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00).txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Canyon) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Lower) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_PostBomb) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00).txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Upper) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+MUS_Facility_CanyonAmbTextures.txtp
+
+7. Raison Varner / Crater's Edge
+'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01).txtp'
+'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_02).txtp'
+'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Ruiner_Fight).txtp'
+
+8. Matt Cox And Jerry Jewell / When The Hunter Comes To Town
+Mus_Ger_EndCredits_Start.txtp
+
+========================================================================================
+
+Artist: Finishing Move Inc.
+Album: Borderlands 3: Psycho Krieg and the Fantastic Fustercluck
+Year: 2020
+
+1. Home, I Guess
+Mus_Alisma_Sanctum_Start.txtp
+(part 4, at least, though the first three parts fit right in too)
+
+2. Flaytime's Just Beginning
+'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=-] {s} {r}.txtp'
+(parts 1+3)
+
+3. Meat-Centric
+'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=-] {s} {r}.txtp'
+(part 2)
+'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_01] {s} {r}.txtp'
+(part 1)
+
+4. Calamitous Slaughter
+'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_01] {s} {r}.txtp'
+(part 3)
+** part 2 is unallocated still!
+'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_02] {s}.txtp'
+(part 1)
+** parts 2+3 are unallocated still!
+
+5. The Soon-Skulled
+'Mus_Alisma_Anger_Boss1_Start (Mus_Alisma_Boss_Generic=-).txtp'
+(specifically parts 2+3)
+** part 1 is unallocated still!
+
+6. An Endless Blade
+'Mus_Alisma_Anger_Boss2_Start (Mus_Alisma_Boss_Generic=-).txtp'
+
+7. Sapphire Starlight
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 1)
+
+8. She Seems So Real
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 2)
+** part 3 is unallocated still!
+
+9. Definitely a Metaphor
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 3, and this version here is *far* more distorted than the soundtrack version.  The soundtrack version
+doesn't seem to actually be in the game data, in this form -- it definitely doesn't seem to show up in the
+actual level (Sapphire's Run))
+
+10. I'm Thinkin'... Explosives?
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 1)
+** part 2 is unallocated still!
+
+11. We Die in Here All the Time
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 1)
+
+12. A Goosed Caboose
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 2, also the soundtrack version might have some bits that aren't found in here, especially in the second half)
+
+13. You Can Never Trust a Train. Ever.
+'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 3, also the soundtrack version might have some bits that aren't found in here, especially in the second half)
+
+14. The Memories Are All I Have Left
+'Mus_Alisma_Chase_Anomaly_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-).txtp'
+
+15. Wagon Waltz
+'Mus_Alisma_Chase_Boss_Start (Mus_Alisma_Boss_Generic=-).txtp'
+
+16. Chaos Is Cancelled
+'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(parts 1+3, sort of; it's not exact.  also some extra stuff at the end?
+** parts 2+4 are unallocated still!
+
+17. The Whiteness of His Coat
+'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 2, but only really vaguely; if it's the same basic song, the treatment is quite different
+between the data files and the soundtrack.  Also that only covers the very beginning of the
+soundtrack track; after that, I have no idea)
+
+18. Reconvene the Metal Chorus
+'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 3)
+** parts 1+2+4 are unallocated still!
+
+19. Exact Extraction
+'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 1)
+
+20. The Tea Party
+'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+(part 3)
+** part 2 is unallocated still!
+
+21. Pain Level (On a Scale of 1 to 10)
+'Mus_Alisma_Experiment_Boss_Start (Mus_Alisma_Boss_Generic=-).txtp'
+
+22. It Wants Me
+'Mus_Alisma_Eldorado_Boss_Start (Mus_Alisma_Boss_Phases=Mus_Boss_Phase_01).txtp'
+
+23. Pushing Down the Blood
+'Mus_Alisma_Eldorado_Boss_Start (Mus_Alisma_Boss_Phases=Mus_Boss_Transition).txtp'
+'Mus_Alisma_Eldorado_Boss_Start (Mus_Alisma_Boss_Phases=Mus_Boss_Phase_02).txtp'
+
+24. The Construct Falls Apart
+'Mus_Alisma_Eldorado_Loot_Start (Mus_Als_EldrdLoot=Prep).txtp'
+'Mus_Alisma_Eldorado_Loot_Start (Mus_Als_EldrdLoot=Loop).txtp'
+'Mus_Alisma_Eldorado_Loot_Start (Mus_Als_EldrdLoot=Outro).txtp'
+
+25. A Single Idea
+(doesn't appear to exist in game data?)
+
+26. A Universe of Yeses
+Mus_Alsima_Eldorado_OutroCin.txtp
+
+27. This Might Not Be the Right Place
+'Mus_Alisma_Sanctum_WarmWelcome_Start [Mus_Als_SnctmWW_Glitch=-].txtp'
+
+28. The Memories Are All I Have Left (Remix)
+(not in data, but obvs. based on the original)
+
+========================================================================================
+
+Artist: Julian Peterson
+Album: Borderlands 3: Designer's Cut
+Year: 2020
+
+1. Arms Race
+'Mus_FrostSite (Mus_System_Sections=Mus_Section_00) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_FrostSite (Mus_System_Sections=Mus_Section_00) (Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_FrostSite (Mus_System_Sections=Mus_Section_00) (Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_FrostSite (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_FrostSite (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_FrostSite (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+
+2. Murdercane
+Mus_FrostSite_Boss_Play.txtp
+
+========================================================================================
+
+Artist: Julian Peterson
+Album: Borderlands 3: Directors Cut
+Year: 2021
+
+1. Ava Meets Mr. Lewis
+'Play_Mus_Noir (Mus_Noir=Systemic) (Mus_System_Sections=Mus_Section_00) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+2. Ava In The Red Room
+'Play_Mus_Noir (Mus_Noir=Apartment).txtp'
+
+3. Ava's On The Case
+'Play_Mus_Noir (Mus_Noir=Systemic) (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_00).txtp'
+
+4. Hizzan's Cabin
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_00) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+5. Panic Room
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_07) {s}.txtp'
+'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_08) {s}.txtp'
+
+6. Haunted Factory
+
+7. I'm Looking For A Specific Human Head
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_00).txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_01).txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_02).txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_05).txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_06).txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_07).txtp'
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_08) {s}.txtp'
+
+8. Mysteriouslier
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_00) (Mus_System_Parts=Mus_Part_00).txtp'
+
+9. Dark Water
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_00).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_01).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_02).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_03).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_04).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_05).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_06).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_07).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_08).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_09).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_10).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_11).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_12).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_13).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_14).txtp'
+'Play_Mus_NekroMystery (Mus_NekroMystery=Systemic) (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_15).txtp'
+
+10. Acausals
+'Play_Mus_NekroMystery (Mus_NekroMystery=BossFight).txtp'
+
+========================================================================================
+
+Artist: Raison Varner
+Album: Borderlands 3: Bloody Harvest
+Year: 2019
+
+1. Menu Theme (Extended)
+Mus_BloodyMenu_Start.txtp
+
+2. The Tech Hallows
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+
+3. Maliwan Rises
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_BloodyHarvest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+4. Captain Haunt Phase 01
+'Mus_BloodyHarvest_Boss_Start (Bharvest_Boss=Phase_01).txtp'
+
+5. Captain Haunt Phase 02
+'Mus_BloodyHarvest_Boss_Start (Bharvest_Boss=Phase_02).txtp'
+
+========================================================================================
+
+Artist: Finishing Move Inc.
+Album: Borderlands 3: Revenge of the Cartels
+Year: 2020
+
+1. Welcome to the Cartels
+'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+
+2. Descending the Overlook
+'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+
+3. Uninvited Guests
+'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+
+4. Meet Cartel's Little Friends
+'Mus_Cartels_Boss_Start (Mus_Cartel_States=Cartel_Boss_Phase_01).txtp'
+
+5. Not Our First Rodeo
+'Mus_Cartels_Run_02_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+
+6. Crashing the Party Again
+'Mus_Cartels_Run_02_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Cartels_Run_02_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Cartels_Run_02_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+
+7. Last Call
+'Mus_Cartels_Run_02_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+8. Uninvited Guests 2
+'Mus_Cartels_Run_02_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+9. Can You Feel the Flames of Joey Ultraviolet
+'Mus_Cartels_Boss_Start (Mus_Cartel_States=Cartel_Boss_Phase_02).txtp'
+
+10. Our Final Hello to the Cartels
+'Mus_Cartels_Run_03_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+11. Hold My Mai Thai
+'Mus_Cartels_Run_03_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Cartels_Run_03_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+12. Sunset On Cartel Island
+'Mus_Cartels_Run_03_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Cartels_Run_03_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+
+========================================================================================
+
+Artist: Jesper Kyd
+Album: Borderlands 3: Takedown At The Guardian Breach
+Year: 2020
+
+1. Anathema The Relentless
+'Mus_Takedown2_Boss_Start (Mus_Takedown2_Bosses=Mus_Mini_Boss_On).txtp'
+
+2. The Shattered Tribunal
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+3. Enter The Tribunal
+'Mus_Takedown2_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+
+4. Scourge the Invincible Martyr
+'Mus_Takedown2_Boss_Start (Mus_Takedown2_Bosses=Mus_Final_Boss_On).txtp'
+
+========================================================================================
+
+Artist: Finishing Move Inc.
+Album: Borderlands 3: The Maliwan Blacksite
+Year: 2019
+
+1. Enter The Blacksite
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+
+2. The Ratches Are Roused
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+
+3. Maliwan Engages
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+
+4. Blacksite Awakens Fully
+'Mus_Raid01_Maliwan_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+
+5. Call In The Elite
+'Mus_Raid01_Maliwan_Bosses_Start (Mus_Raid01_Maliwan=Boss_01_Phase_01).txtp'
+
+6. Valkyrie Squad Attacks
+'Mus_Raid01_Maliwan_Bosses_Start (Mus_Raid01_Maliwan=Boss_02_Phase_01).txtp'
+'Mus_Raid01_Maliwan_Bosses_Start (Mus_Raid01_Maliwan=Boss_02_Phase_02).txtp'
+
+7. Wotan Awakens
+'Mus_Raid01_Maliwan_Bosses_Start (Mus_Raid01_Maliwan=Boss_03_Phase_01).txtp'
+'Mus_Raid01_Maliwan_Bosses_Start (Mus_Raid01_Maliwan=Boss_03_Phase_02).txtp'
+
+8. Wotan Goes Beast Mode
+'Mus_Raid01_Maliwan_Bosses_Start (Mus_Raid01_Maliwan=Boss_03_Phase_03).txtp'
+
