@@ -614,6 +614,23 @@ the full track.
   * `98249060.wem`
   * https://aeternam.bandcamp.com/track/praetor-of-mercury
 
+**DLC4: Krieg's Ska Track**
+
+A sidequest in DLC4 features a Ska track put on by Krieg's jailers in an attempt
+to demoralize and psychologically torture their prisoners, but Krieg likes it.
+I remember the in-game audio as being really dour and weird-sounding, but the
+on-disk audio here is honestly not that bad (and sounds much more ska-like than
+my memories would suggest).  The actual full track is even more so.
+
+* Freddie Reid, John Robert Beck, Tim Hutton, and William Arthur / Buster Two Tone
+  * `MUS_KreigCell_SkaTrack.txtp`
+    * `613144459.wem` - The main body of the track.  Is just a segment of the
+      "real" full track, not the full thing
+    * `924504323.wem` - Just a short intro-or-something (this does *not* complete
+      the full track)
+  * https://bmgmusic.sourceaudio.com/#!details?id=26490811
+  * https://search.upright-music.com/album/04004347-16c5-451b-b74f-5570105e214a
+
 # Other Info
 
 This post's markdown is also available [at github](https://github.com/apocalyptech/bl3soundtrack/blob/main/post.md).
