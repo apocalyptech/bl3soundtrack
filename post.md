@@ -616,7 +616,7 @@ the full track.
 
 # Other Info
 
-This post's markdown is also available [at github](https://github.com/apocalyptech/bl3soundtrackpost/blob/main/post.md).
+This post's markdown is also available [at github](https://github.com/apocalyptech/bl3soundtrack/blob/main/post.md).
 This data's hereby put this under public domain, or
 [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 Enjoy!
