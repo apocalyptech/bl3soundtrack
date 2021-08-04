@@ -688,6 +688,38 @@ quests.  They're both just instrumentals.
   * https://bmgmusic.sourceaudio.com/#!details?id=23332187
   * https://www.amazon.com/Little-Young-Lover/dp/B07Y42GJM7
 
+**Carnivora Fairgrounds**
+
+A random collection of fairground-style music is played when you enter
+Carnivora.  These are all instrumentals, and they've been processed with
+varying degrees of distortion.
+
+* `Mus_Motorcade_Festival_Misc {r}.txtp`
+  * `361835298.wem` - Rolf Eriksson / Big Top (ADD062 oddball and comedy)
+    * https://bmgmusic.sourceaudio.com/#!details?id=15730738
+  * `496936868.wem` - Johann Strauss (arr. Carl S Zittrer) / Blue Danube Waltz (PML172A Really Useful 2 Disc 1)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12631566
+  * `659766963.wem` - Eric Allen / Dance of the Pipes (PML148 Comicals)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12630009
+  * `1028152471.wem` - Niklas Edberger / House of Fun (ADD062 oddball and comedy)
+    * https://bmgmusic.sourceaudio.com/#!details?id=15730734
+  * `542450637.wem` - Roger Roger / Magic Fairground No. 1 (PML118 From The Archives 3)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12627198
+  * `129569866.wem` - Roger Roger / Magic Fairground No. 2 (PML118 From The Archives 3)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12627200
+  * `940996888.wem` - Denis Hawksworth / Merry Go Round (30) (PML134 Jingles 8)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12629245
+    * full version: https://bmgmusic.sourceaudio.com/#!details?id=12622628
+  * `112969551.wem` - Roger James Limb / On The Carousel (30) (PML134 Jingles 8)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12629247
+    * full version: https://bmgmusic.sourceaudio.com/#!details?id=12619743
+  * `410646284.wem` - Niklas Edberger, Anders Kampe / Pigalle (ADD009 Burlesque & Cabaret)
+    * https://bmgmusic.sourceaudio.com/#!details?id=15779154
+  * `602521095.wem` - Harry Gordon Forbes / Switchback (PML016 The Comedy Collection)
+    * https://bmgmusic.sourceaudio.com/#!details?id=12618886
+  * `930574999.wem` - Niklas Edberger, Anders Kampe / Thunderpants (ADD062 oddball and comedy)
+    * https://bmgmusic.sourceaudio.com/#!details?id=16397103
+
 **DLC1: Steel Dragon of Eternal Pain**
 
 This is the metalhead who gets annoyed by Digby Vermouth recording his new track,

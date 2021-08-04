@@ -26,6 +26,7 @@ Increasingly glitchy and weird versions of the non-Glitch version (which
 apart from that it sounds kind of neat.
 
 'Mus_Bar_Start (Mus_Hibiscus_Bar=Mus_Bar_DarkMix).txtp'
+Raison Varner / Dark Mix (confirmed musician+trackname from Varner's soundcloud)
 DJ Midnight's post-sidemission "dark" mix.
 
 'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
@@ -95,13 +96,21 @@ pretty typical DLC3 soundtrack stuff, though.
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_01).txtp'
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_02).txtp'
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_03).txtp'
+As the names suggest, this is probably leftover music from something demoy?
+They're referenced from the Cathedral of the Twin Gods audio object, but
+presumably just in error.  The "ambient" one isn't too interesting, but there's
+some pretty good stuff in the "phase" ones.
+
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
-As the names suggest, t his is probably leftover music from something demoy?
-They're referenced from the Cathedral of the Twin Gods music objects, though.
+As the names suggest, this is probably leftover music from something demoy?
+They're referenced from the Cathedral of the Twin Gods audio object, but
+presumably just in error.  Section 0 is very ambientish and not super
+interesting on its own, really, but it's a nice lead-in to section 1,
+which is subtle and rather fun.
 
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
@@ -133,7 +142,8 @@ Vicki Suzanne Hansen / Sweet Breaths
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_02).txtp'
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_03).txtp'
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_04).txtp'
-Music related to opening the Diamond loot chest
+Music related to opening the Diamond loot chest.  First phase is a long'un:
+4:30.  The others are 45sec or shorter, each.
 
 'Mus_FrostSite_BrassChoir_Play {r}.txtp'
 'Mus_FrostSite_Metals_Play {r}.txtp'
@@ -163,7 +173,8 @@ Erik Mikkelsen / Party Night
 Weird music for Tannis's fish-riding easter egg in Ambermire.
 
 'Mus_Menu-0017-event (Mus_MenuMap=Mus_MenuMap_Option).txtp'
-No idea; related to menu music somehow, but I've never heard it.
+No idea; related to menu music somehow, but I've never heard it.  Possibly
+some earlier menu-music demos?
 
 'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 'Mus_Mine_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
@@ -190,8 +201,34 @@ Gameshow music with Zahnzi -- quite short each, and processed to sound rather
 tinny.
 
 'Mus_Motorcade_Festival_Misc {r}.txtp'
-Stereotypical carnival organ music.  Pretty distorted (also seven minutes
-long).
+Stereotypical carnival music.  Actually a collection of eleven random
+tracks.  The in-game versions are all at least a *little* distorted, but some
+are *quite* distorted.  (That effect is on top of the actual base tracks
+linked below.)  They vary in length from ~30sec to 7 minutes.
+ - 361835298.wem - 68 secs, Rolf Eriksson / Big Top (ADD062 oddball and comedy)
+   https://bmgmusic.sourceaudio.com/#!details?id=15730738
+ - 496936868.wem - 7 minutes, Johann Strauss (arr. Carl S Zittrer) / Blue Danube Waltz (PML172A Really Useful 2 Disc 1)
+   https://bmgmusic.sourceaudio.com/#!details?id=12631566
+ - 659766963.wem - 79 secs, Eric Allen / Dance of the Pipes (PML148 Comicals)
+   https://bmgmusic.sourceaudio.com/#!details?id=12630009
+ - 1028152471.wem - 2:30, Niklas Edberger / House of Fun (ADD062 oddball and comedy)
+   https://bmgmusic.sourceaudio.com/#!details?id=15730734
+ - 542450637.wem - 3:45, Roger Roger / Magic Fairground No. 1 (PML118 From The Archives 3)
+   https://bmgmusic.sourceaudio.com/#!details?id=12627198
+ - 129569866.wem - 4:12, Roger Roger / Magic Fairground No. 2 (PML118 From The Archives 3)
+   https://bmgmusic.sourceaudio.com/#!details?id=12627200
+ - 940996888.wem - 30 sec, Denis Hawksworth / Merry Go Round (30) (PML134 Jingles 8)
+   https://bmgmusic.sourceaudio.com/#!details?id=12629245
+   full version: https://bmgmusic.sourceaudio.com/#!details?id=12622628
+ - 112969551.wem - 30 sec, Roger James Limb / On The Carousel (30) (PML134 Jingles 8)
+   https://bmgmusic.sourceaudio.com/#!details?id=12629247
+   full version: https://bmgmusic.sourceaudio.com/#!details?id=12619743
+ - 410646284.wem - 2:30, Niklas Edberger, Anders Kampe / Pigalle (ADD009 Burlesque & Cabaret)
+   https://bmgmusic.sourceaudio.com/#!details?id=15779154
+ - 602521095.wem - 56 sec, Harry Gordon Forbes / Switchback (PML016 The Comedy Collection)
+   https://bmgmusic.sourceaudio.com/#!details?id=12618886
+ - 930574999.wem - 1:46, Niklas Edberger, Anders Kampe / Thunderpants
+   https://bmgmusic.sourceaudio.com/#!details?id=16397103
 
 'Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Looping).txtp'
 'Mus_Motorcade_Interior_A9K_Blood (Mus_Scripted_Motorcade_A9KIntro=Mus_Scripted_Motorcade_A9KIntro_Outro).txtp'
@@ -223,7 +260,9 @@ Robert Edwards / Street Level
 'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Completed).txtp'
 The Tink "rave" music during the Homestead side missions.  The second is a
 processed version of the first which just sounds distorted, further away,
-and from a shittier speaker.
+and from a shittier speaker.  They're pretty short, but if you remove the
+time restrictions in the TXTP, ther raw .wem is long enough to warrant
+inclusion, IMO.
 
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
@@ -269,8 +308,10 @@ mixed a little differently (sounds a bit boomier, as if being played on
 some speakers in a room).
 
 'Mus_Prologue-0534-event (Mus_System_Sections=Mus_Section_00).txtp'
+This is "Welcome to Fyrestone" by Jesper Kyd, all the way from back to BL1.
+
 'Mus_Prologue-0534-event (Mus_System_Sections=Mus_Section_01).txtp'
-Droughts music!  Seems to be totally absent from the official soundtracks.
+This is actually part of the Saturn fight from BL2
 
 'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_01)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
 'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_02)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
@@ -314,7 +355,8 @@ I believe this is from the Guardian fight right before Graveward.
 
 'Play_Mus_NekroMystery (Mus_NekroMystery=Cemetery).txtp'
 Real subtle ambient type stuff; 4:30 long.  Pleasant enough if you're into it, but
-probably not really soundtrack-worthy.
+maybe not really soundtrack-worthy?  After giving it an Actual Listen, I
+think it'd make a nice counterpoint to the more bombastic stuff, though.
 
 Video_ThePlan_Phase01.txtp
 Video_ThePlan_Phase02.txtp
