@@ -921,6 +921,7 @@ CIN2070_WainwrightGetsCursed.txtp
 'Mus_Hibiscus_Final_Boss_Start (Mus_Hibiscus_FinalBoss=Mus_Hibiscus_FinalBoss_Phase_03).txtp'
 
 26. Jesper Kyd / Shattered Hearts
+(didn't track this one down...)
 
 ========================================================================================
 
@@ -1029,6 +1030,36 @@ Artist: Finishing Move Inc.
 Album: Borderlands 3: Psycho Krieg and the Fantastic Fustercluck
 Year: 2020
 
+Making associations in here was a bit more challenging than in others,
+because the soundtrack tracks were split between concatenated sections of
+the on-disk files, rather than by TXTP on the whole.  Most of the TXTPs
+here describe a sequence of three segments, and part 1 might belong to
+one track, whereas 2+3 go to another.  As such, while doing the
+associations I came up with a fairly definitive list of which parts
+don't seem to be present on the soundtrack.  Namely:
+
+    'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_01] {s} {r}.txtp'
+        part 2
+    'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_02] {s}.txtp'
+        parts 2+3
+    'Mus_Alisma_Anger_Boss1_Start (Mus_Alisma_Boss_Generic=-).txtp'
+        part 1
+    'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+        part 3
+    'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+        part 2
+    'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+        parts 2+4
+    'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+        parts 1+2+4
+    'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
+        part 2
+
+... it's quite likely that this is the case for a lot of the other
+soundtrack tracks as well, honestly, though this is the only case where
+I've dug in with such care, since otherwise making the associations
+wouldn't've really been possible.
+
 1. Home, I Guess
 Mus_Alisma_Sanctum_Start.txtp
 (part 4, at least, though the first three parts fit right in too)
@@ -1046,15 +1077,12 @@ Mus_Alisma_Sanctum_Start.txtp
 4. Calamitous Slaughter
 'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_01] {s} {r}.txtp'
 (part 3)
-** part 2 is unallocated still!
 'Mus_Alisma_Anger_Start (Mus_Alisma_Override=-)[Alisma_Mus_System_Combat=ThreatLvl_02] {s}.txtp'
 (part 1)
-** parts 2+3 are unallocated still!
 
 5. The Soon-Skulled
 'Mus_Alisma_Anger_Boss1_Start (Mus_Alisma_Boss_Generic=-).txtp'
 (specifically parts 2+3)
-** part 1 is unallocated still!
 
 6. An Endless Blade
 'Mus_Alisma_Anger_Boss2_Start (Mus_Alisma_Boss_Generic=-).txtp'
@@ -1066,7 +1094,6 @@ Mus_Alisma_Sanctum_Start.txtp
 8. She Seems So Real
 'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
 (part 2)
-** part 3 is unallocated still!
 
 9. Definitely a Metaphor
 'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
@@ -1077,7 +1104,6 @@ actual level (Sapphire's Run))
 10. I'm Thinkin'... Explosives?
 'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
 (part 1)
-** part 2 is unallocated still!
 
 11. We Die in Here All the Time
 'Mus_Alisma_Chase_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
@@ -1100,7 +1126,6 @@ actual level (Sapphire's Run))
 16. Chaos Is Cancelled
 'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
 (parts 1+3, sort of; it's not exact.  also some extra stuff at the end?
-** parts 2+4 are unallocated still!
 
 17. The Whiteness of His Coat
 'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=-](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
@@ -1111,7 +1136,6 @@ soundtrack track; after that, I have no idea)
 18. Reconvene the Metal Chorus
 'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
 (part 3)
-** parts 1+2+4 are unallocated still!
 
 19. Exact Extraction
 'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
@@ -1120,7 +1144,6 @@ soundtrack track; after that, I have no idea)
 20. The Tea Party
 'Mus_Alisma_Experiment_Start [Alisma_Mus_System_Combat=ThreatLvl_02](Mus_System_Sections=-)(Mus_System_Parts=-) {s} {r}.txtp'
 (part 3)
-** part 2 is unallocated still!
 
 21. Pain Level (On a Scale of 1 to 10)
 'Mus_Alisma_Experiment_Boss_Start (Mus_Alisma_Boss_Generic=-).txtp'
