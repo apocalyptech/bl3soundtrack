@@ -37,7 +37,12 @@ Just a tiny little guitar riff
 
 'MUS_CitizenScience (Citizen_Science_MUS=-) (Citizen_Science_MUS=Attract).txtp'
 'MUS_CitizenScience (Citizen_Science_MUS=GamePlay) (Citizen_Science_MUS=Attract).txtp'
-Citizen Science machine chiptunes.
+980319067.wem
+Citizen Science machine chiptunes.  The two cues reference what's
+probably the actual in-game audio, but there's also what looks like
+an unreferenced wem with *better* audio in the game data.  This
+maybe gets called dynamically from somewhere, but it's a much nicer-
+sounding source, for inclusion into a soundtrack extension.
 
 'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
