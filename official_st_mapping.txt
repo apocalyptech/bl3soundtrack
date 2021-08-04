@@ -1198,6 +1198,9 @@ Year: 2021
 'Play_Mus_Cabin (Mus_System_Sections=Mus_Section_02) (Mus_System_Parts=Mus_Part_08) {s}.txtp'
 
 6. Haunted Factory
+'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_00) {s}.txtp'
+(the soundtrack version seems to have some extra ambiance; the on-disk
+stuff doesn't seem to actually start up for awhile)
 
 7. I'm Looking For A Specific Human Head
 'Play_Mus_PandoraMystery (Mus_System_Sections=Mus_Section_01) (Mus_System_Parts=Mus_Part_00) {s}.txtp'
