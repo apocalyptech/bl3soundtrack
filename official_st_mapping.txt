@@ -958,8 +958,7 @@ muted.  So to get the disk files to really match up decently, you'll need to sil
  - part 2: 358384918.wem
  - part 3: 122146150.wem
  - part 4: 896499485.wem
-Also the soundtrack track seems to include some musical bits not present in here.
-The section 1 file is used *very* sparingly, btw...)
+The drums from Section 1 seem to be used more than the Section 0 ones.
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'

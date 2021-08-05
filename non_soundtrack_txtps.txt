@@ -94,8 +94,9 @@ Step 5: Ending of Step 3
 Mus_CraterBoss_Ambiance.txtp
 Apparently from the cinematics (and then just general ambience) around the Ruiner
 fight at the end of DLC3.  Not actually in the OST, though.  They're both
-pretty short (42sec and 53 sec respectively); could maybe work 'em into
-the boss fight music below?
+pretty short (42sec and 53 sec respectively).  The Rose one works well as
+an intro to the Rose fight music below -- the Ruiner one is nice too, but
+I've got nothing to attach it to.
 
 'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01).txtp'
 'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_02).txtp'
@@ -157,7 +158,9 @@ Music related to opening the Diamond loot chest.  First phase is a long'un:
 
 'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Canyon) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 Really loud overdriven drums; is *not* present in the Bloodsun Canyon OST
-track.  It's a little over two minutes, might be soundtrackable.
+track.  Two .wems layered -- the "bottom" one is basically just extra
+distortion, but the top track is still rather overdriven itself.  Not
+a lot going on musically either, gonna skip it for soundtracks.
 
 MUS_Frontier_Ambiance_Strings_141129.txtp
 MUS_Frontier_Ambiance_Strings_163903.txtp
@@ -197,8 +200,10 @@ soundtrackable, alas.
 'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
-Interestingly, the Blastplains "regular" level music doesn't seem to be on
-the soundtrack.
+Blastplains combat music -- each one is pretty similar, honestly.  To
+soundtrack we'll need to cut out quite a lot, and even then it'll be a
+little repetetive.  It's not bad, but unsurprising it didn't make the OST
+cut.
 
 'Mus_FrostSite_BrassChoir_Play {r}.txtp'
 'Mus_FrostSite_Metals_Play {r}.txtp'
@@ -218,9 +223,10 @@ somewhere.
 
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 Some extra Ashfall Peak music.  This is only a 20-second loop, but there
-*is* a lot of variation, so I'll see if it's soundtrackable.  A real small
-bit of this *is* in the OST Ashfall Peak track, but that's composed mostly
-from the Section 0 tracks instead (plus the level boss music).
+*is* a lot of variation, and it's pretty great when strung together.  Bits
+of this *are* used in the OST Ashfall Peak track, but soundtracking it with
+a forced-random count of 5 makes for a pretty awesome track.  I actually
+really like how it fades out, too...
 
 'Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp'
 Agent Dee's dance music during the Going Rogue mission in Ambermire.
