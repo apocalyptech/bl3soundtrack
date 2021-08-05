@@ -602,6 +602,18 @@ editing.  Regardless:
     6. `14961495.wem`
     7. `160810524.wem`
 
+**Salvaged Claptrap Dubstep**
+
+On Skywell-27, the Claptrap Salvage mission on there has you rescuing a dubstep
+library for Claptrap.  This is the song that plays from the dead Claptrap.
+
+* Ilana Tarutina, Jeffrey Fayman, and Yoav Goren / Pink Ferrari
+  * `Mus_Orbital_Claptrap_Dubstep_Start (Mus_Scripted_Orbital_Claptrap=Claptrap_Dubstep_On).txtp`
+  * `608497537.wem`
+  * https://bmgmusic.sourceaudio.com/#!details?id=23497490
+  * https://www.amazon.com/Pink-Ferrari/dp/B07PGF74QX
+  * https://www.youtube.com/watch?v=LDlHVLi3UBA
+
 **Agent Dee Dance Music**
 
 The "Going Rogue" mission in Ambermire leads you to Agent Dee, undercover among
