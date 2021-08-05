@@ -929,72 +929,46 @@ Artist: Various
 Album: Borderlands 3: Bounty Of Blood
 Year: 2020
 
-(Associations in general in here are more or less guessed-at.  The long track lengths
-and general abstract/ambient nature of the soundtrack doesn't really encourage me to
-check this stuff out (though don't get me wrong, I totally love it).  Anyway, there
-could very well be soundtrack stuff that's not in the game, or game stuff that's not
-in the soundtrack, and some of these mappings might not be appropriate.)
+(Due to the collage-like nature of many of these tracks, the associations here
+are probably a bit looser than others in this file.  There's certainly a lot of
+cases where there's more music in the files than are in the soundtrack, but
+given the nature of the music itself, it's often a bit difficult to say for sure.)
 
 1. Raison Varner / Intro
-(not sure honestly; there's a lot to dig through here)
+(backing track from GER-Intro.mp4; doesn't appear to be isolated from the voiceovers, though)
 
 2. Julian Peterson / Vestige
 MUS_Town_amb_WalkToTown.txtp
 MUS_Town_amb_Windflute.txtp
-MUS_Town_Celebration.txtp
-MUS_Town_DeathOfSheriff.txtp
-MUS_Town_PlayerPiano_Damaged.txtp
 MUS_Town_PlayerPiano.txtp
 MUS_Town_ScriptedCombat.txtp
+MUS_Town_DeathOfSheriff.txtp
 
 3. Julian Peterson / The Blastplains
-Mus_Frontier_Amb_PulsarStrings.txtp
-MUS_Frontier_Ambiance_Strings_141129.txtp
-MUS_Frontier_Ambiance_Strings_163903.txtp
-MUS_Frontier_Ambiance_Strings_383770.txtp
-MUS_Frontier_Ambiance_Strings_417021.txtp
-MUS_Frontier_Ambiance_Strings_465326.txtp
-MUS_Frontier_Ambiance_Strings_49237.txtp
-MUS_Frontier_Ambiance_Strings_507535.txtp
-MUS_Frontier_Ambiance_Strings_515244.txtp
-MUS_Frontier_Ambiance_Strings_531566.txtp
-MUS_Frontier_Ambiance_Strings_546344.txtp
-MUS_Frontier_Ambiance_Strings_626729.txtp
-MUS_Frontier_Ambiance_Strings_692507.txtp
-MUS_Frontier_Ambiance_Strings_729056.txtp
-MUS_Frontier_Ambiance_Strings_7871.txtp
-MUS_Frontier_Ambiance_Strings_792170.txtp
 MUS_Frontier_Ambiance_Strings_913702.txtp
-MUS_Frontier_Ambiance_Strings_961066.txtp
-MUS_Frontier_Ambiance_Strings_969836.txtp
-MUS_Frontier_Ambiance_Strings_976222.txtp
-MUS_Frontier_Combat_SwirlingStrings.txtp
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
-'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+Mus_Frontier_Amb_PulsarStrings.txtp
+(+ at least one other Mus_Frontier_Ambiance_Strings_*.txtp)
 
 4. Raison Varner / Ashfall Peak
-'Mus_Lodge_Boss_Start (Mus_Geranium_Boss_Generic=Mus_Boss_On).txtp'
+(The soundtrack track seems to definitely make use of a bunch of the "section 0" files
+in here, at least in part, but for the *most* part, the primary drum track has been
+muted.  So to get the disk files to really match up decently, you'll need to silence:
+ - part 0: 329983085.wem
+ - part 1: 794859520.wem
+ - part 2: 358384918.wem
+ - part 3: 122146150.wem
+ - part 4: 896499485.wem
+Also the soundtrack track seems to include some musical bits not present in here.
+The section 1 file is used *very* sparingly, btw...)
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+'Mus_Lodge_Boss_Start (Mus_Geranium_Boss_Generic=Mus_Boss_On).txtp'
 
 5. Raison Varner / Obsidian Forest
-'Mus_Forest_Boss_Start (Mus_Geranium_Boss_Generic=Mus_Boss_On).txtp'
 'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Forest_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
@@ -1007,18 +981,19 @@ MUS_Frontier_Combat_SwirlingStrings.txtp
 'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
 'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
 'Mus_Forest_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
+'Mus_Forest_Boss_Start (Mus_Geranium_Boss_Generic=Mus_Boss_On).txtp'
+(a few of these might not show up, or show up in abridged form, but it's honestly not too
+far off from the full 20min track)
 
 6. Julian Peterson / Bloodsun Canyon
-'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Boss) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00).txtp'
-'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Canyon) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
-'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Lower) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
-'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_PostBomb) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00).txtp'
-'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Upper) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 MUS_Facility_CanyonAmbTextures.txtp
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Upper) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Lower) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Boss) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00).txtp'
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_PostBomb) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00).txtp'
 
 7. Raison Varner / Crater's Edge
-'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01).txtp'
-'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_02).txtp'
+'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01).txtp' (first half)
 'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Ruiner_Fight).txtp'
 
 8. Matt Cox And Jerry Jewell / When The Hunter Comes To Town

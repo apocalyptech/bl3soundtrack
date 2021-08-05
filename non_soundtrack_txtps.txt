@@ -93,9 +93,14 @@ Step 5: Ending of Step 3
 'Mus_Crater_CIN_Rose_Start (Mus_Geranium_Crater_Boss=Ruiner_Intro).txtp'
 Mus_CraterBoss_Ambiance.txtp
 Apparently from the cinematics (and then just general ambience) around the Ruiner
-fight at the end of DLC3 -- the Crater's Edge track from the DLC3 soundtrack is
-short enough that I'm pretty sure that these aren't actually in there.  It's
-pretty typical DLC3 soundtrack stuff, though.
+fight at the end of DLC3.  Not actually in the OST, though.  They're both
+pretty short (42sec and 53 sec respectively); could maybe work 'em into
+the boss fight music below?
+
+'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01).txtp'
+'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_02).txtp'
+The first half of Phase 1 *is* in the OST, but the second half isn't (and
+Phase 2 is absent).  Might be worth soundtracking...
 
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Amb).txtp'
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_01).txtp'
@@ -150,6 +155,51 @@ Vicki Suzanne Hansen / Sweet Breaths
 Music related to opening the Diamond loot chest.  First phase is a long'un:
 4:30.  The others are 45sec or shorter, each.
 
+'MUS_Facility (Mus_Geranium_Facility=Mus_Facility_Canyon) (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+Really loud overdriven drums; is *not* present in the Bloodsun Canyon OST
+track.  It's a little over two minutes, might be soundtrackable.
+
+MUS_Frontier_Ambiance_Strings_141129.txtp
+MUS_Frontier_Ambiance_Strings_163903.txtp
+MUS_Frontier_Ambiance_Strings_383770.txtp
+MUS_Frontier_Ambiance_Strings_417021.txtp
+MUS_Frontier_Ambiance_Strings_465326.txtp
+MUS_Frontier_Ambiance_Strings_49237.txtp
+MUS_Frontier_Ambiance_Strings_507535.txtp
+MUS_Frontier_Ambiance_Strings_515244.txtp
+MUS_Frontier_Ambiance_Strings_531566.txtp
+MUS_Frontier_Ambiance_Strings_546344.txtp
+MUS_Frontier_Ambiance_Strings_626729.txtp
+MUS_Frontier_Ambiance_Strings_692507.txtp
+MUS_Frontier_Ambiance_Strings_729056.txtp
+MUS_Frontier_Ambiance_Strings_7871.txtp
+MUS_Frontier_Ambiance_Strings_792170.txtp
+MUS_Frontier_Ambiance_Strings_961066.txtp
+MUS_Frontier_Ambiance_Strings_969836.txtp
+MUS_Frontier_Ambiance_Strings_976222.txtp
+MUS_Frontier_Combat_SwirlingStrings.txtp
+Some really lovely ambient string sounds.  There's one in particular that
+*is* used in the "Blastplains" OST track, and I think another of these gets
+mixed in at some point too.  They're quite nice, though not really
+soundtrackable, alas.
+
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_05) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_06) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
+'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+Interestingly, the Blastplains "regular" level music doesn't seem to be on
+the soundtrack.
+
 'Mus_FrostSite_BrassChoir_Play {r}.txtp'
 'Mus_FrostSite_Metals_Play {r}.txtp'
 Some quietish brass swells.  Might actually be incorporated into the "Arms Race"
@@ -165,6 +215,12 @@ Perky gameshow music stuff (quite short; each under 30 seconds)
 Music in Moxxi's Bar in Lectra City.  The two are basically identical except
 the second is processed to sound like it's coming out of a small speaker
 somewhere.
+
+'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+Some extra Ashfall Peak music.  This is only a 20-second loop, but there
+*is* a lot of variation, so I'll see if it's soundtrackable.  A real small
+bit of this *is* in the OST Ashfall Peak track, but that's composed mostly
+from the Section 0 tracks instead (plus the level boss music).
 
 'Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp'
 Agent Dee's dance music during the Going Rogue mission in Ambermire.
@@ -368,4 +424,11 @@ Video_ThePlan_Phase02.txtp
 Video_ThePlan_Phase03.txtp
 Backing tracks for Timothy's "The Plan" mission stuff.  Pretty fragmentary and
 weird when taken out of context.
+
+MUS_Town_Celebration.txtp
+Silly little Irish-sounding jig (???, srsly) at the end of DLC3.  Not
+really worth soundtracking, IMO.
+
+MUS_Town_PlayerPiano_Damaged.txtp
+Just a little broken piano key-mashing.
 
