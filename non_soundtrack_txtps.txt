@@ -71,7 +71,11 @@ coming out of a pretty tinny speaker; honestly probably not super worth putting 
 on an unofficial sountrack expansion.
 
 'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_01).txtp'
-Part of the Rampager's music, but doesn't show up in the soundtracks.
+Part of the Rampager's music, but doesn't show up in the soundtracks.  As a
+fun note, this and the `Mus_Wetlands_Vault_EdenBoss_Fake_On` track share
+some DNA, and even have almost identical-sounding endings.  I'm pretty sure
+that the other one is sort of a continuation of this, and that they're both
+probably McCann tracks (even though the other one's from Eden-6).
 
 'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step01).txtp'
 'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step02).txtp'
@@ -110,7 +114,12 @@ Phase 2 is absent).  Might be worth soundtracking...
 As the names suggest, this is probably leftover music from something demoy?
 They're referenced from the Cathedral of the Twin Gods audio object, but
 presumably just in error.  The "ambient" one isn't too interesting, but there's
-some pretty good stuff in the "phase" ones.
+some pretty good stuff in the "phase" ones.  NOTE: The "ending" to this
+contains `Mus_Motorcade_RaveCave` in its entirety.  They must've taken this
+demo and repurposed it for the Rave Cave segment at some point.  I've got
+this down as being McCann, which would make sense for a Promethea/Athenas
+track, though I don't really have a lot of supporting evidence (though it
+doesn't sound dissimilar from other McCann tracks).
 
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
@@ -219,7 +228,9 @@ Perky gameshow music stuff (quite short; each under 30 seconds)
 'Mus_Killavolt_Moxxi_Theme_Start (Mus_Scripted_Towers=Moxxi_Music_On) {s}.txtp'
 Music in Moxxi's Bar in Lectra City.  The two are basically identical except
 the second is processed to sound like it's coming out of a small speaker
-somewhere.
+somewhere.  Turns out this is basically Raison Varner's "Welcome to the
+Arena Suckers" from at least the digital versions of the Borderlands 1 OST:
+https://www.amazon.com/dp/B07ZPDQ9SQ/
 
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 Some extra Ashfall Peak music.  This is only a 20-second loop, but there
@@ -253,7 +264,11 @@ Mus_Mission_AtlasHQ_Musak_Lp.txtp
 Mus_Mission_PortaPrison_Potty_Bossa_Lp_Start.txtp
 Atlas HQ-related muzak -- they're basically identical except the second is
 quite distorted, and processed to sound like it's coming out of a small
-speaker inside a porta-potty.
+speaker inside a porta-potty.  Turns out this is:
+Christopher John White and Peter Denham Dixon / Riviera Retro (60 Sec)
+  - From Production Music Online's "PMOL 020 Comedy & Kitsch"
+  - https://search.upright-music.dk/album/8e6578d4-0694-4026-94bf-29bec6233c45
+Full version (2:13) is available there as well.
 
 Mus_Mission_PortaPrison_Radio_Rock_Lp_Start.txtp
 Sort of rock song, though it's processed *very* heavily to sound like
@@ -329,7 +344,10 @@ The Tink "rave" music during the Homestead side missions.  The second is a
 processed version of the first which just sounds distorted, further away,
 and from a shittier speaker.  They're pretty short, but if you remove the
 time restrictions in the TXTP, ther raw .wem is long enough to warrant
-inclusion, IMO.
+inclusion, IMO.  NOTE: This song is contained in its entirety in the
+`Mus_Demo_VS_Scripted_Start` tracks; I'm guessing that the original
+Killavolt fight music demo got repurposed into the Rave Cave segment.
+I've got these down as being McCann, which seems appropriate.
 
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
@@ -418,7 +436,11 @@ Drumming, clearly from the Rumble in the Jungle quest, and probably from
 when King Bobo appears.  As a standalone track, honestly not too interesting.
 
 'Mus_Wetlands_Vault_EdenBoss_Start (Mus_Scripted_Wetlands_Vault_EdenBoss=Mus_Wetlands_Vault_EdenBoss_Fake_On).txtp'
-I believe this is from the Guardian fight right before Graveward.
+I believe this is from the Guardian fight right before Graveward.  As a
+fun note, this and the `Mus_Scripted_City_Vault_Boss=Phase_01` track share
+some DNA, and even have almost identical-sounding endings.  I'm pretty sure
+that this one is sort of a continuation of the other one, and that they're both
+probably McCann tracks (even though this one's from Eden-6).
 
 'Play_Mus_NekroMystery (Mus_NekroMystery=Cemetery).txtp'
 Real subtle ambient type stuff; 4:30 long.  Pleasant enough if you're into it, but

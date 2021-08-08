@@ -732,6 +732,24 @@ varying degrees of distortion.
   * `930574999.wem` - Niklas Edberger, Anders Kampe / Thunderpants (ADD062 oddball and comedy)
     * https://bmgmusic.sourceaudio.com/#!details?id=16397103
 
+**Atlas HQ Muzak**
+
+There's two TXTPs containing this song; the first is relatively clean (though it's got
+some processing on top of it), whereas the first is very noisy (made to sound like it's
+coming out of a bad speaker inside a Porta Potty, in fact).  This plays at least
+during the Lectra City mission with the person trapped in the Porta Potty, but given
+the other cue name, it probably shows up in Atlas HQ somewhere, too.
+
+* Christopher John White and Peter Denham Dixon / Riviera Retro (60 Sec)
+  * `Mus_Mission_AtlasHQ_Musak_Lp.txtp`
+    * `229826151.wem`
+  * `Mus_Mission_PortaPrison_Potty_Bossa_Lp_Start.txtp`
+    * `455499396.wem`
+  * From Production Music Online's "PMOL 020 Comedy & Kitsch"
+  * https://search.upright-music.dk/album/8e6578d4-0694-4026-94bf-29bec6233c45
+    * The version used in the WEM file is the "60 Sec" version specifically, though
+      a full-length track is available there as well.
+
 **DLC1: Steel Dragon of Eternal Pain**
 
 This is the metalhead who gets annoyed by Digby Vermouth recording his new track,
