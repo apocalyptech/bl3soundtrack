@@ -1,0 +1,39 @@
+Christophe_Dal_Sasso_and_Dominique_Mandin_-_Shake_Up.mp3: Christophe Dal Sasso and Dominique Mandin / Shake Up
+custom-gehenna-piano-apoc.mp3: Julian Peterson, possibly / Gehenna at Sunrise
+Erik_Mikkelsen_-_Party_Night.mp3: Erik Mikkelsen / Party Night
+Mariano_Dimonte_etc_-_Little_Young_Lover.mp3: Mariano Dimonte, Riccardo Gibertini, Antonio Vezzano, and Marco Zaghi / Little Young Lover
+Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_Commercial_Break)-apoc.mp3: Finishing Move Inc., possibly / Agonizer 9000 Commercial Break
+Mus_Alisma_Anger_Start (Mus_Alisma_Override=on)[Alisma_Mus_System_Combat=-]-apoc.mp3: Finishing Move Inc., possibly / Castle Crimson
+Mus_Bar_Start (Mus_Hibiscus_Bar=Mus_Bar_DarkMix)-apoc.mp3: Raison Varner / Dark Mix
+Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02)-apoc.mp3: Finishing Move Inc., possibly / Cartel Infiltration
+MUS_CitizenScience (Citizen_Science_MUS=GamePlay) (Citizen_Science_MUS=Attract)-apoc.mp3: Raison Varner, possibly / Citizen Science
+Mus_City_Play (Mus_System_Sections=Mus_Section_05)-apoc.mp3: Michael McCann, possibly / Metroplex - Section 5
+Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_01)-with-Mus_Wetlands_Vault_EdenBoss_Fake_On-apoc.mp3: Michael McCann, possibly / The Rampager Emerges / Graveward Guardian Fake-Out
+Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01)-apoc.mp3: Raison Varner, possibly / Rose at Crater's Edge
+Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_01)-apoc.mp3: Michael McCann, possibly / Killavolt (demo) / The Rave Cave
+Mus_Demo_VS_Start-apoc.mp3: Raison Varner, possibly / Demo Music (unknown)
+Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)-apoc.mp3: Finishing Move Inc., possibly / Devil's Razor - Section 2
+Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)-apoc.mp3: Finishing Move Inc., possibly / Devil's Razor - Section 3
+Mus_Diamond_Loot_Start (Mus_DLoot=Phase_01)-apoc.mp3: Julian Peterson, possibly / Opening the Diamond Armory
+Mus_Diamond_Loot_Start (Mus_DLoot=Phase_02)-apoc.mp3: Julian Peterson, possibly / Looting the Diamond Armory
+MUS_Frontier_Play-apoc.mp3: Julian Peterson, possibly / Blastplains Tension
+Mus_FrostSite_GameShow-apoc.mp3: Julian Peterson, possibly / Let the Arms Race Begin
+Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00)-apoc.mp3: Raison Varner, possibly / Ashfall Peaks Unease
+Mus_Marshfields_Tannis_Egg_Start-apoc.mp3: Jesper Kyd, possibly / Tannis and Splorghuld, Part 4
+Mus_Menu-0017-event-apoc.mp3: Jesper Kyd, possibly / Menu (Demo)
+Christopher_White_and_Peter_Dixon_-_Riviera_Retro_60_sec.mp3: Christopher White and Peter Dixon / Riviera Retro (60 Sec)
+Mus_Motorcade_Festival_CageOTinks_DirtyLove-apoc.mp3: Raison Varner, possibly / La Cage O' Tinks (Dirty Love)
+Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)-apoc.mp3: Finishing Move Inc., possibly / Splinterlands Ambiance
+Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)-apoc.mp3: Finishing Move Inc., possibly / Splinterlands Combat
+Mus_Orbital_Claptrap_Dubstep_Start-apoc.mp3: Ilana Tarutina, Jeffrey Fayman, and Yoav Goren / Pink Ferrari
+Mus_Prologue_FinalBoss_Play-apoc.mp3: Michael McCann, possibly / Mouthpiece Meets His End
+Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)-apoc.mp3: Michael McCann, possibly / Droughts Ambiance
+Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)-apoc.mp3: Michael McCann, possibly / Droughts - Section 2
+Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)-apoc.mp3: Michael McCann, possibly / Droughts - Section 3
+Nigel_Thomas_-_Jazz_City.mp3: Nigel Thomas / Jazz City
+Paul_Whitehead_and_Emily_Taylor_-_Plasma_Storm.mp3: Paul Whitehead and Emily Taylor / Plasma Storm
+Play_Mus_NekroMystery (Mus_NekroMystery=Cemetery)-apoc.mp3: Julian Peterson, possibly / Secrets of Scryer's Crypt
+Richard_Florio_and_Nick_Nolan_-_Crank.mp3: Richard Florio and Nick Nolan / Crank
+Robert_Edwards_-_Street_Level.mp3: Robert Edwards / Street Level
+Vicki_Suzanne_Hansen_-_Sweet_Breaths.mp3: Suzanne Hansen / Sweet Breaths
+Freddie_Reid_etc_-_Buster_Two_Tone_Lite.mp3: Freddie Reid, John Robert Beck, Tim Hutton, and William Arthur / Buster Two Tone (Lite)

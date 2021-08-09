@@ -1,0 +1,16 @@
+# Apparently some early demo music for Killavolt?  Anyway, it's not
+# bad.  Just cobbled this by hand.  The "ambient" track is omitted;
+# not really worth it.
+
+ ../../14014349.wem #i #b 28.4444444444444
+ ../../653406006.wem #i #b 14.2222222222222
+ ../../373876032.wem #i #b 14.2222222222222
+ ../../1056183657.wem #i #b 14.2222222222222
+ ../../592466196.wem #i #b 14.2222222222222
+ ../../754139424.wem #i #b 28.4444444444444
+  ../../421493887.wem #i #b 56.8888888888889
+  ../../986612762.wem #i #p 53.3333333333333 #b 3.5555555555556007
+ group = -L2 #@layer-v
+ ../../421493887.wem #i
+group = -S8 #v -2dB
+

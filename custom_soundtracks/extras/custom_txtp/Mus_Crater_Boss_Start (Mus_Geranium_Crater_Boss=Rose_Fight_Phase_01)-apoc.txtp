@@ -1,0 +1,19 @@
+## Manually cobbled-together!
+
+ ## Mus_Crater_CIN_Rose_Start, Rose_Intro (truncated a bit)
+ ../../619604912.wem #i #b 31.3
+
+ ## Rose_Fight_Phase_01, just the second half (and trimmed a bit of that, too)
+ ##../../1068537957.wem #r 29.528 #B 118.15384615384599
+ ../../1068537957.wem #r 29.528 #B 88.625846153846
+
+ ## Rose_Fight_Phase_02, as-is, apart from not cutting off the last track
+  ../../268411017.wem #i #b 29.538461538461497
+  ../../165010568.wem #i #b 29.538461538461497
+  ../../268411017.wem #i #b 29.538461538461497
+  ../../165010568.wem #i #b 29.538461538461497
+  ../../769486470.wem #i
+ group = -S5
+
+group = -S3 #v 0dB #P 2.0
+

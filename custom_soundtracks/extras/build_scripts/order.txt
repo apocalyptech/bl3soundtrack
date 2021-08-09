@@ -1,0 +1,39 @@
+Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_Commercial_Break)-apoc.mp3
+Christophe_Dal_Sasso_and_Dominique_Mandin_-_Shake_Up.mp3
+Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_01)-with-Mus_Wetlands_Vault_EdenBoss_Fake_On-apoc.mp3
+Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02)-apoc.mp3
+Erik_Mikkelsen_-_Party_Night.mp3
+Play_Mus_NekroMystery (Mus_NekroMystery=Cemetery)-apoc.mp3
+Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_00)-apoc.mp3
+Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_01)-apoc.mp3
+Mus_Prologue_FinalBoss_Play-apoc.mp3
+Christopher_White_and_Peter_Dixon_-_Riviera_Retro_60_sec.mp3
+MUS_CitizenScience (Citizen_Science_MUS=GamePlay) (Citizen_Science_MUS=Attract)-apoc.mp3
+Robert_Edwards_-_Street_Level.mp3
+Mus_Bar_Start (Mus_Hibiscus_Bar=Mus_Bar_DarkMix)-apoc.mp3
+Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_01)-apoc.mp3
+Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)-apoc.mp3
+Mus_Demo_VS_Start-apoc.mp3
+Richard_Florio_and_Nick_Nolan_-_Crank.mp3
+Mus_FrostSite_GameShow-apoc.mp3
+Mus_Marshfields_Tannis_Egg_Start-apoc.mp3
+Freddie_Reid_etc_-_Buster_Two_Tone_Lite.mp3
+Mus_Alisma_Anger_Start (Mus_Alisma_Override=on)[Alisma_Mus_System_Combat=-]-apoc.mp3
+Mus_City_Play (Mus_System_Sections=Mus_Section_05)-apoc.mp3
+MUS_Frontier_Play-apoc.mp3
+Mus_Diamond_Loot_Start (Mus_DLoot=Phase_01)-apoc.mp3
+Mus_Diamond_Loot_Start (Mus_DLoot=Phase_02)-apoc.mp3
+Mariano_Dimonte_etc_-_Little_Young_Lover.mp3
+Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)-apoc.mp3
+Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)-apoc.mp3
+custom-gehenna-piano-apoc.mp3
+Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01)-apoc.mp3
+Nigel_Thomas_-_Jazz_City.mp3
+Mus_Motorcade_Festival_CageOTinks_DirtyLove-apoc.mp3
+Mus_Menu-0017-event-apoc.mp3
+Paul_Whitehead_and_Emily_Taylor_-_Plasma_Storm.mp3
+Vicki_Suzanne_Hansen_-_Sweet_Breaths.mp3
+Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00)-apoc.mp3
+Mus_Prologue_Play (Mus_System_Sections=Mus_Section_02)-apoc.mp3
+Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)-apoc.mp3
+Mus_Orbital_Claptrap_Dubstep_Start-apoc.mp3

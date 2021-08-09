@@ -6,10 +6,12 @@ so *not* Crimson Radio or other "real" band songs.)
 
 'Mus_9K_Boss_Start (Mus_Scripted_Motorcade_A9K_Fight=Phase_Commercial_Break).txtp'
 Mus_Motorcade_Interior-0237-event
+Finishing Move Inc., possibly / Agonizer 9000 Commercial Break
 Just some chipper bouncy commercial-type music.  First is 30secs; second is 1:15,
 though it sounds just like it's the same thing looped.
 
 'Mus_Alisma_Anger_Start (Mus_Alisma_Override=on)[Alisma_Mus_System_Combat=-] {s}.txtp'
+Finishing Move Inc., possibly / Castle Crimson
 Pretty standard DLC4-sounding soundtrack stuff.
 
 'Mus_Alisma_Chase_Anomaly_Start [Alisma_Mus_System_Combat=ThreatLvl_01](Mus_System_Sections=-)(Mus_System_Parts=-).txtp'
@@ -30,6 +32,7 @@ Raison Varner / Dark Mix (confirmed musician+trackname from Varner's soundcloud)
 DJ Midnight's post-sidemission "dark" mix.
 
 'Mus_Cartels_Run_01_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+Finishing Move Inc., possibly / Cartel Infiltration
 Pretty standard-sounding Cartels loop.
 
 'Mus_CircleOfSlaughter_Stinger_01 {r}.txtp'
@@ -38,6 +41,7 @@ Just a tiny little guitar riff
 'MUS_CitizenScience (Citizen_Science_MUS=-) (Citizen_Science_MUS=Attract).txtp'
 'MUS_CitizenScience (Citizen_Science_MUS=GamePlay) (Citizen_Science_MUS=Attract).txtp'
 980319067.wem
+Raison Varner, possibly / Citizen Science
 Citizen Science machine chiptunes.  The two cues reference what's
 probably the actual in-game audio, but there's also what looks like
 an unreferenced wem with *better* audio in the game data.  This
@@ -51,6 +55,7 @@ sounding source, for inclusion into a soundtrack extension.
 'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
 'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
 'Mus_City_Play (Mus_System_Sections=Mus_Section_05)(Mus_System_Parts=Mus_Part_06) {s} {r}.txtp'
+Michael McCann, possibly / Metroplex - Section 5
 Pretty standard soundtrack stuff; I didn't hear it anywhere in the soundtracks though.
 (Could be I missed 'em, of course)
 
@@ -71,6 +76,7 @@ coming out of a pretty tinny speaker; honestly probably not super worth putting 
 on an unofficial sountrack expansion.
 
 'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_01).txtp'
+Michael McCann, possibly / The Rampager Emerges / Graveward Guardian Fake-Out
 Part of the Rampager's music, but doesn't show up in the soundtracks.  As a
 fun note, this and the `Mus_Wetlands_Vault_EdenBoss_Fake_On` track share
 some DNA, and even have almost identical-sounding endings.  I'm pretty sure
@@ -85,6 +91,7 @@ Sax-and-drums free jazz for the Sandblast Scar mission run.  Maybe this is actua
 licensed from something, actually?  Yes!  It is.
 Step 1: Christophe Dal Sasso and Dominique Mandin / Shake Up
     - From a VA album "Brooklyn Coffee"
+    - https://search.upright-music.com/album/addafcf8-5707-4c88-9fa3-9879d4aa747b/nojs
     - https://www.amazon.com/Shake-Up/dp/B08SQJWNWV
     - This one is processed to sound kind of tinny and far away
 Step 2: Drum solo from Step 3
@@ -104,6 +111,7 @@ I've got nothing to attach it to.
 
 'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_01).txtp'
 'Mus_Crater_Boss_Start (Mus_Geranium_Crater_Boss=Rose_Fight_Phase_02).txtp'
+Raison Varner, possibly / Rose at Crater's Edge
 The first half of Phase 1 *is* in the OST, but the second half isn't (and
 Phase 2 is absent).  Might be worth soundtracking...
 
@@ -111,6 +119,7 @@ Phase 2 is absent).  Might be worth soundtracking...
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_01).txtp'
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_02).txtp'
 'Mus_Demo_VS_Scripted_Start (Mus_Scripted_VS=Mus_Script_Killavolt_Phase_03).txtp'
+Michael McCann, possibly / Killavolt (demo) / The Rave Cave
 As the names suggest, this is probably leftover music from something demoy?
 They're referenced from the Cathedral of the Twin Gods audio object, but
 presumably just in error.  The "ambient" one isn't too interesting, but there's
@@ -126,6 +135,7 @@ doesn't sound dissimilar from other McCann tracks).
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
 'Mus_Demo_VS_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+Raison Varner, possibly / Demo Music (unknown)
 As the names suggest, this is probably leftover music from something demoy?
 They're referenced from the Cathedral of the Twin Gods audio object, but
 presumably just in error.  Section 0 is very ambientish and not super
@@ -140,6 +150,8 @@ which is subtle and rather fun.
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+Finishing Move Inc., possibly / Devil's Razor - Section 2
+Finishing Move Inc., possibly / Devil's Razor - Section 3
 Extra music from Devil's Razor which doesn't appear to be on the soundtracks.
 
 Mus_Desolate_BetterTimes.txtp
@@ -162,6 +174,8 @@ Vicki Suzanne Hansen / Sweet Breaths
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_02).txtp'
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_03).txtp'
 'Mus_Diamond_Loot_Start (Mus_DLoot=Phase_04).txtp'
+Julian Peterson, possibly / Opening the Diamond Armory
+Julian Peterson, possibly / Looting the Diamond Armory
 Music related to opening the Diamond loot chest.  First phase is a long'un:
 4:30.  The others are 45sec or shorter, each.
 
@@ -209,6 +223,7 @@ soundtrackable, alas.
 'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'MUS_Frontier_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
+Julian Peterson, possibly / Blastplains Tension
 Blastplains combat music -- each one is pretty similar, honestly.  To
 soundtrack we'll need to cut out quite a lot, and even then it'll be a
 little repetetive.  It's not bad, but unsurprising it didn't make the OST
@@ -222,6 +237,7 @@ is like 30 seconds)
 
 Mus_FrostSite_GameShowIntro_Play.txtp
 Mus_FrostSite_GameShowPregame_Play.txtp
+Julian Peterson, possibly / Let the Arms Race Begin
 Perky gameshow music stuff (quite short; each under 30 seconds)
 
 'Mus_Killavolt_Moxxi_Theme_Start (Mus_Scripted_Towers=Moxxi_Music_NoSpeaker_On).txtp'
@@ -233,6 +249,7 @@ Arena Suckers" from at least the digital versions of the Borderlands 1 OST:
 https://www.amazon.com/dp/B07ZPDQ9SQ/
 
 'Mus_Lodge_Start (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
+Raison Varner, possibly / Ashfall Peaks Unease
 Some extra Ashfall Peak music.  This is only a 20-second loop, but there
 *is* a lot of variation, and it's pretty great when strung together.  Bits
 of this *are* used in the OST Ashfall Peak track, but soundtracking it with
@@ -248,9 +265,11 @@ Erik Mikkelsen / Party Night
  - https://www.amazon.com/Party-Night/dp/B07F4538KV
 
 'Mus_Marshfields_Tannis_Egg_Start (Mus_Scripted_Marshfields=Tannis_Egg_Intro).txtp'
+Jesper Kyd, possibly / Tannis and Splorghuld, Part 4
 Weird music for Tannis's fish-riding easter egg in Ambermire.
 
 'Mus_Menu-0017-event (Mus_MenuMap=Mus_MenuMap_Option).txtp'
+Jesper Kyd, possibly / Menu (demo)
 No idea; related to menu music somehow, but I've never heard it.  Possibly
 some earlier menu-music demos?
 
@@ -275,6 +294,7 @@ Sort of rock song, though it's processed *very* heavily to sound like
 it's coming out of a small speaker from inside a porta-potty.
 
 Mus_Motorcade_Festival_CageOTinks_DirtyLove.txtp
+Raison Varner, possibly / La Cage O' Tinks (Dirty Love)
 Music from the Tink club in Carnivora.  Based on Moxxi's BL2 bar song.
 
 Mus_Motorcade_Festival_GameShow_Theme_Start.txtp
@@ -340,6 +360,7 @@ Robert Edwards / Street Level
 
 'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Active).txtp'
 'Mus_Motorcade_RaveCave (Mission_Carnivora_Homestead_Part1_Turbine=Homestead_Part1_Turbine_Completed).txtp'
+Michael McCann, possibly / Killavolt (demo) / The Rave Cave
 The Tink "rave" music during the Homestead side missions.  The second is a
 processed version of the first which just sounds distorted, further away,
 and from a shittier speaker.  They're pretty short, but if you remove the
@@ -377,12 +398,19 @@ I've got these down as being McCann, which seems appropriate.
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s}.txtp'
 'Mus_Motorcade_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
+Finishing Move Inc., possibly / Splinterlands Ambiance
+Finishing Move Inc., possibly / Splinterlands Combat
 Splinterlands music.  This seems to just be absent from the soundtracks entirely?
 Could be I missed something.
 
 'Mus_Orbital_Claptrap_Dubstep_Start (Mus_Scripted_Orbital_Claptrap=Claptrap_Dubstep_On).txtp'
 Chipper dancey track; actually not super dubsteppy for the most part.  Honestly
 don't remember where this shows up in the game?  In Skywell-27, theoretically.
+Turns out this is: Ilana Tarutina, Jeffrey Fayman, and Yoav Goren / Pink Ferrari
+ * From 1 Revolution Music's "1RM069 Summer Pop EDM"
+ * https://bmgmusic.sourceaudio.com/#!details?id=23497490
+ * https://www.amazon.com/Pink-Ferrari/dp/B07PGF74QX
+ * https://www.youtube.com/watch?v=LDlHVLi3UBA
 
 'Mus_Orbital_Digby_Start (Mus_Scripted_Orbital_Platform=Digby_On).txtp'
 Track that Rhys Ball puts on during that Katagawa Ball fight.
@@ -401,6 +429,7 @@ This is actually part of the Saturn fight from BL2
 'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_01)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
 'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_02)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
 'Mus_Prologue_FinalBoss_Play (Mus_Scripted_Prologue=Mus_Boss_MouthPiece_Phase_03)(Mus_System_Sections=-)(Mus_System_Parts=-) {r}.txtp'
+Michael McCann, possibly / Mouthpiece Meets His End
 Mouthpiece fight -- seems absent from the official soundtracks.
 
 'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_01)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
@@ -429,6 +458,9 @@ Mouthpiece fight -- seems absent from the official soundtracks.
 'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_07) {s}.txtp'
 'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_08) {s}.txtp'
 'Mus_Prologue_Play (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_09) {s}.txtp'
+Michael McCann, possibly / Droughts Ambiance
+Michael McCann, possibly / Droughts - Section 2
+Michael McCann, possibly / Droughts - Section 3
 More Droughts music -- not in the official soundtracks.
 
 Mus_RumbleInJungle_KingBobo_TribalDrums_Layered.txtp
@@ -436,6 +468,7 @@ Drumming, clearly from the Rumble in the Jungle quest, and probably from
 when King Bobo appears.  As a standalone track, honestly not too interesting.
 
 'Mus_Wetlands_Vault_EdenBoss_Start (Mus_Scripted_Wetlands_Vault_EdenBoss=Mus_Wetlands_Vault_EdenBoss_Fake_On).txtp'
+Michael McCann, possibly / The Rampager Emerges / Graveward Guardian Fake-Out
 I believe this is from the Guardian fight right before Graveward.  As a
 fun note, this and the `Mus_Scripted_City_Vault_Boss=Phase_01` track share
 some DNA, and even have almost identical-sounding endings.  I'm pretty sure
@@ -443,6 +476,7 @@ that this one is sort of a continuation of the other one, and that they're both
 probably McCann tracks (even though this one's from Eden-6).
 
 'Play_Mus_NekroMystery (Mus_NekroMystery=Cemetery).txtp'
+Julian Peterson, possibly / Secrets of Scryer's Crypt
 Real subtle ambient type stuff; 4:30 long.  Pleasant enough if you're into it, but
 maybe not really soundtrack-worthy?  After giving it an Actual Listen, I
 think it'd make a nice counterpoint to the more bombastic stuff, though.
@@ -459,4 +493,20 @@ really worth soundtracking, IMO.
 
 MUS_Town_PlayerPiano_Damaged.txtp
 Just a little broken piano key-mashing.
+
+MUS_KreigCell_SkaTrack.txtp
+Freddie Reid, John Robert Beck, Tim Hutton, and William Arthur / Buster Two Tone (Lite)
+I remembered this in-game as sounding a lot more dour and weird, but it's
+not at all bad on its own outside of it.  I prefer the non-lite version,
+but that's what's in the game.
+  * From Editone Production Music's "ET010 Brass Grooves"
+  * https://bmgmusic.sourceaudio.com/#!details?id=26490746
+  * https://search.upright-music.com/album/04004347-16c5-451b-b74f-5570105e214a
+  * The non-"Lite" original version is also available:
+    * https://bmgmusic.sourceaudio.com/#!details?id=26490811
+
+915321961.wem
+Julian Peterson, possibly / Gehenna at Sunrise
+Doesn't actually show up in any TXTPs; real nice piano-based atmosphere,
+though.
 

@@ -610,6 +610,7 @@ library for Claptrap.  This is the song that plays from the dead Claptrap.
 * Ilana Tarutina, Jeffrey Fayman, and Yoav Goren / Pink Ferrari
   * `Mus_Orbital_Claptrap_Dubstep_Start (Mus_Scripted_Orbital_Claptrap=Claptrap_Dubstep_On).txtp`
   * `608497537.wem`
+  * From 1 Revolution Music's "1RM069 Summer Pop EDM"
   * https://bmgmusic.sourceaudio.com/#!details?id=23497490
   * https://www.amazon.com/Pink-Ferrari/dp/B07PGF74QX
   * https://www.youtube.com/watch?v=LDlHVLi3UBA
@@ -669,6 +670,8 @@ escaped my notice until later on.  First up:
 * Christophe Dal Sasso and Dominique Mandin / Shake Up
   * `Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step01).txtp`
   * `576300338.wem`
+  * From BAM Library's "BAM-AL 041 Brooklyn Coffee"
+  * https://search.upright-music.com/album/addafcf8-5707-4c88-9fa3-9879d4aa747b/nojs
   * https://www.amazon.com/Shake-Up/dp/B08SQJWNWV
   * The track is processed to sound rather tinny and far away
 * Nigel Thomas / Jazz City
