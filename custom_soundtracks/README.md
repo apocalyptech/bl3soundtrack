@@ -17,6 +17,8 @@ in here.
 2. **Extras** - "Symphonic" type music found in the data which doesn't appear
    on the official soundtracks.  This includes fair bit of licensed music as
    well, but it's all instrumental.  About 2 hours long, and 39 tracks.
+3. **Crimson Radio** - As the name would suggest, this is all the musical
+   Crimson Radio bits.  About 5 hours long, and 66 tracks.
 
 The `covers` dir also contains the album covers I used for 'em.
 
