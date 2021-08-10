@@ -66,3 +66,12 @@ My tracklist, which IMO works quite well:
 19. Robert Edwards ft. Little Violet / PiSk Swing
 20. Tyreen Calypso / Stealth Time!
 
+Technically this soundtrack should include Aeternam's "Praetor of Mercury,"
+which is played very briefly during the Digby Vermouth quest sequence in
+DLC1.  It's not here primarily just because I'd overlooked it while sequencing,
+and I don't really feel like trying to fit it in anywhere.  Also, there's only
+45 seconds of it in the game audio, so I'd have to grab it from somewhere
+other than the game files, which I wanted to largely avoid (though clearly I
+made an exception for Caleb Hawley's "Wish You Were Mine," which is probably
+even *less* than 45 seconds).  Ah well!
+
