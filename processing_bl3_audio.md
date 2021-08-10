@@ -12,6 +12,7 @@ manage and listen to the music in the game.
 * [Converting BNK to TXTP](#converting-bnk-to-txtp)
 * [Understanding TXTP Files](#understanding-txtp-files)
 * [Categorizing TXTPs](#categorizing-txtps)
+* [Code-Based TXTP Processing](#code-based-txtp-processing)
 
 Extracting the Audio
 --------------------
@@ -146,6 +147,11 @@ If you've got vgmstream installed on one of its supported players, you'll
 be able to just play `.wem` files directly.  It's a recommended install
 even if you're using ww2ogg to do Ogg Vorbis conversions.
 
+It's worth noting that the game engine never *directly* plays a specific
+`.wem` file, and the raw audio in the `.wem` files might not be exactly
+what gets played while the game runs.  For that, we need to look into
+the `.bnk` files instead.
+
 Processing BNK Files
 --------------------
 
@@ -153,7 +159,10 @@ Processing BNK Files
 and interesting.  When the game wants to play audio, it will *always*
 go through one of these Sound Bank objects, and the sound bank might
 redirect over to one of those `.wem` files (or it might contain other
-`.wem` files *inside* the `.bnk` as well).
+`.wem` files *inside* the `.bnk` as well).  The `.bnk` file might also
+turn out to be extraordinarily simple and just play a *single* `.wem`
+file without much processing at all.  (That's often the case for
+Crimson Radio and Credits songs, for instance.)
 
 The `.bnk` files can act as an in-game
 [Digital Audio Workstation](https://en.wikipedia.org/wiki/Digital_audio_workstation)
@@ -350,4 +359,87 @@ I use to generate TXTP files is:
 
 So the `.wem` references have `../../` in front of them instead of just
 `../`
+
+Code-Based TXTP Processing
+--------------------------
+
+One final thing I'll mention is that for processing the "Extras"
+soundtrack, I ended up making use of some code to assist in wrangling
+the TXTP files into use for track creation.  Surprising nobody familiar
+with my usual habits, this is a Python script.  It can be found at
+`custom_soundtracks/extras/build_scripts/txtp_process.py`, and could
+be useful to anyone trying to do similarly complicated things to the
+level soundfiles.
+
+It's set up to be usable as a commandline tool, and has a bunch of
+actions which are rather custom-built for the kind of soundtrack
+processing that I'd settled on while working with them myself.  The
+script itself does contain some classes which can read in the
+Wwiser-generated BL3 TXTP files and work with them as native Python
+objects, though, which can be quite powerful and useful.  Note that it
+is *not* a general-purpose TXTP processor; the TXTP format allows for
+a lot more functionality than this supports.  It's very custom-built
+for these specific BL3 TXTPs.  (One example of a trivial thing that
+TXTP supports but this one doesn't: the `Txtp` class requires that
+there only be a single top-level object, since that's how Wwiser
+generates the BL3 TXTP files.  But TXTP itself is perfectly happy to
+just have an ungrouped list of elements, etc.)
+
+Anyway, I mostly just wanted to mention that it exists.  If you want
+more details, check out the code.  Here's its `--help` output, though:
+
+    usage: txtp_process.py [-h]
+                           (-o OUTPUT | -s SPLIT | -c | --find-leadins | --do-transforms | --soundtrack SOUNDTRACK | --soundtrack-simple SOUNDTRACK_SIMPLE | --soundtrack-leadin SOUNDTRACK_LEADIN | --gen-leadin-randoms)
+                           [-i] [--lowest-random] [--schema SCHEMA] [-n] [--nopad]
+                           [--random-count RANDOM_COUNT]
+    
+    Performs various actions on TXTP files
+    
+    optional arguments:
+      -h, --help            show this help message and exit
+      -o OUTPUT, --output OUTPUT
+                            Output our parsed version of the specified file
+      -s SPLIT, --split SPLIT
+                            Split the the segmented file into multiple txtp files. Will
+                            write to numbered files starting with 1.txtp
+      -c, --check           Check all TXTP files in the cur directory for parseability
+      --find-leadins        Report on files in the current dir which have what appear to
+                            be 'leadin' intro segments.
+      --do-transforms       Do the transforms I like to do on freshly-extracted music.
+                            Namely: adjust volumes to try and avoid super-quiet music,
+                            set random groups to actually randomize, and remove loop
+                            parameters.
+      --soundtrack SOUNDTRACK
+                            Attempt to process files in the current dir into a
+                            soundtrack track. Loops through as many variants as
+                            possible, per part. String should be the output filename
+      --soundtrack-simple SOUNDTRACK_SIMPLE
+                            Attempt to process files in the current dir into a
+                            soundtrack track. Just picks a single variant for each part.
+                            String should be the output filename
+      --soundtrack-leadin SOUNDTRACK_LEADIN
+                            Attempt to process files in the current dir into a
+                            soundtrack track. Handles soundtracks which have a "lead-in"
+                            at the beginning, and processes similarly to the non-simple
+                            soundtrack version. String should be the output filename
+      --gen-leadin-randoms  Given a collection of leadin-based TXTPs, generate a set of
+                            leadin+body TXTPs for each random possibility (not, like,
+                            permutations, but just N files where N is the max
+                            randomization for a single group).
+      -i, --include-comments
+                            Include TXTP comments in output, if present
+      --lowest-random       When in simple soundtrack mode, choose the lowest random
+                            element, rather than the highest (for some collections, this
+                            might lead to more "exciting" tracks).
+      --schema SCHEMA       Comma-separated segment list to use in soundtrack-leadin
+                            mode. Has no effect in other modes. Without this option, a
+                            hardcoded list will be used instead, which is unlikely to
+                            make sense (or even work) with arbitrary music sets.
+      -n, --nofade          When processing soundtracks, don't fade out -- instead,
+                            allow the full end-of-track to play.
+      --nopad               Don't add 2 seconds of padding at the end of soundtrack
+                            processing Currently does not apply to leadin soundtracks.
+      --random-count RANDOM_COUNT
+                            In basic soundtrack mode, override our detected min. random
+                            count.
 
