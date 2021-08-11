@@ -187,6 +187,11 @@ and each level of those affect which parts inside all these disparate
 tracks will be getting played at any given point.  It's a lot to keep
 track of!
 
+For `.bnk` files which contain `.wem`s embedded internally, you *can* extract
+them using the utility [bnkextr](https://github.com/eXpl0it3r/bnkextr), but
+note that for BL3 audio, that's rarely useful.  Instead you'll be much better
+off doing a BNK -> TXTP conversion, as described below.
+
 Converting BNK to TXTP
 ----------------------
 
