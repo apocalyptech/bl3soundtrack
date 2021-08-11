@@ -6,7 +6,9 @@ import re
 import sys
 import enum
 import math
+import struct
 import argparse
+import subprocess
 
 group_re = re.compile('^-(?P<type>[A-Z])(?P<num>\d+)(?P<rest>.*?)$')
 
@@ -296,6 +298,26 @@ class File(BaseDef):
                 ' '.join(report),
                 )
 
+    def get_complex_filename(self):
+        """
+        If we're just pointing at a .wem file, return our filename.  Otherwise,
+        (in which case we're a .bnk file), return a tuple with the following:
+            0. the BNK name
+            1. the internal wem name
+            2. the wem path, assuming that the .bnk has been extracted w/
+               bnkextr and lives in the same dir as the .bnk
+
+        Note that that .bnk behavior relies on the wwiser convention of including
+        the WEM name as the solitary "comment" on the BNK line, so it's not at
+        all generalized!
+        """
+        if self.filename.endswith('.bnk') and self.subsong is not None:
+            wem_name = self.comments[2:]
+            full_filename = os.path.join(self.filename[:-4], wem_name)
+            return (self.filename, wem_name, full_filename)
+        else:
+            return self.filename
+
 class GroupType(enum.Enum):
     SEGMENT = 'S'
     LAYER = 'L'
@@ -338,6 +360,63 @@ class Group(BaseDef):
         super().remove_length()
         for content in self.contents:
             content.remove_length()
+
+    def get_all_filenames(self, cur_set=None):
+        """
+        Recursively loops through ourselves and returns a set of every filename
+        for `File` objects found in here.  For file entries which pick subsongs
+        out of .bnk files, the "filename" will actually be a tuple as described
+        by File.get_complex_filename()
+        """
+        if cur_set is None:
+            cur_set = set()
+        for content in self.contents:
+            if type(content) == File:
+                cur_set.add(content.get_complex_filename())
+            else:
+                content.get_all_filenames(cur_set)
+        return cur_set
+
+    def resample_to(self, samplerate, samplerate_map, vgm123_path, sox_path):
+        """
+        Given a `samplerate_map` which contains info about the samplerates of
+        all File contents, recursively resample contents to `samplerate`;
+        updating the File paths to the newly-created, resampled wav files.
+        Will use `vgm123_path` to convert the .wem to a wav, and then
+        `sox_path` to do the resampling.
+        """
+        for content in self.contents:
+            if type(content) == File:
+                filename = content.get_complex_filename()
+                if samplerate_map[filename] != samplerate:
+                    if type(filename) == tuple:
+                        wem_to_resample = filename[2]
+                    else:
+                        wem_to_resample = filename
+                    wav_file = '{}.wav'.format(wem_to_resample[:-4])
+                    resampled_file = '{}-{}.wav'.format(
+                            wem_to_resample[:-4],
+                            samplerate,
+                            )
+                    if not os.path.exists(resampled_file):
+                        if not os.path.exists(wav_file):
+                            subprocess.run([vgm123_path, '-d', 'wav', '-f', wav_file, wem_to_resample],
+                                    capture_output=True)
+                        if not os.path.exists(wav_file):
+                            raise RuntimeError('Could not convert {} to wav'.format(wem_to_resample))
+                        subprocess.run([sox_path, wav_file, '-r', str(samplerate), resampled_file],
+                                capture_output=True)
+                    if not os.path.exists(resampled_file):
+                        raise RuntimeError('Could not resample {} to {}'.format(
+                            wav_file,
+                            samplerate,
+                            ))
+                    content.filename = resampled_file
+                    if type(filename) == tuple:
+                        content.subsong = None
+                        content.comments = None
+            else:
+                content.resample_to(samplerate, samplerate_map, vgm123_path, sox_path)
 
     @staticmethod
     def from_txtp(stack, parts):
@@ -560,6 +639,14 @@ if __name__ == '__main__':
                 files where N is the max randomization for a single group).""",
             )
 
+    action.add_argument('--fix-mixed-samplerate',
+            action='store_true',
+            help="""Loops through all TXTPs in the current dir and looks for cases where
+                the component .wems aren't all at the same samplerate.  Will resample all
+                to the highest samplerate (by converting to WAV) and write out a new TXTP
+                which references those wavs.""",
+            )
+
     # Non-action args follow
 
     parser.add_argument('-i', '--include-comments',
@@ -599,6 +686,24 @@ if __name__ == '__main__':
     parser.add_argument('--random-count',
             type=int,
             help='In basic soundtrack mode, override our detected min. random count.',
+            )
+
+    parser.add_argument('--bnkextr-path',
+            type=str,
+            default='/home/pez/bin/bnkextr',
+            help='Path to bnkextr binary; only used with --fix-mixed-samplerate',
+            )
+
+    parser.add_argument('--sox-path',
+            type=str,
+            default='/usr/bin/sox',
+            help='Path to sox binary; only used with --fix-mixed-samplerate',
+            )
+
+    parser.add_argument('--vgm123-path',
+            type=str,
+            default='/home/pez/bin/vgm123',
+            help='Path to vgm123/vgmstream123 binary; only used with --fix-mixed-samplerate',
             )
 
     args = parser.parse_args()
@@ -1173,4 +1278,93 @@ if __name__ == '__main__':
                         written += 1
 
         print('Found {} TXTPs, wrote {} variants'.format(found, written))
+
+    elif args.fix_mixed_samplerate:
+
+        def get_wem_samplerate(filename):
+            """
+            Lifted from https://github.com/hcs64/ww2ogg/blob/master/src/wwriff.cpp
+            """
+
+            # little-endian!
+            def u16(df):
+                return struct.unpack('<H', df.read(2))[0]
+
+            def u32(df):
+                return struct.unpack('<I', df.read(4))[0]
+
+            with open(filename, 'rb') as df:
+                header = df.read(4)
+                assert(header == b'RIFF')
+                riff_size = u32(df)
+                wav_head = df.read(4)
+                assert(wav_head == b'WAVE')
+
+                chunk_offset = 12
+                fmt_offset = None
+                fmt_size = None
+                while chunk_offset < riff_size:
+                    df.seek(chunk_offset)
+                    assert(chunk_offset + 8 <= riff_size)
+
+                    chunk_type = df.read(4)
+                    chunk_size = u32(df)
+
+                    if chunk_type == b'fmt ':
+                        # There are a bunch of other chunk types,
+                        # but I don't care about any of 'em
+                        fmt_offset = chunk_offset + 8
+                        fmt_size = chunk_size
+                        break
+
+                    chunk_offset = chunk_offset + 8 + chunk_size
+
+                assert(fmt_offset is not None)
+                assert(fmt_size is not None)
+
+                df.seek(fmt_offset)
+                codec = u16(df)
+                assert(codec == 0xFFFF)
+                channels = u16(df)
+                samplerate = u32(df)
+                return samplerate
+
+        for txtp_filename in sorted(os.listdir('.')):
+            if txtp_filename.endswith('.txtp') and '-ratefixed' not in txtp_filename:
+                txtp = Txtp.from_file(txtp_filename)
+                if type(txtp.root) == File:
+                    # Root is a file, so self-evidentally single-samplerate
+                    continue
+                if txtp.root.group_type != GroupType.SEGMENT:
+                    print('{}: Unknown root: {}'.format(txtp_filename, txtp.root))
+                    continue
+                filenames = txtp.root.get_all_filenames()
+                if len(filenames) == 1:
+                    # Don't bother checking if it's just a single file
+                    continue
+                samplerates = set()
+                samplerate_map = {}
+                for filename in filenames:
+                    if type(filename) == tuple:
+                        # internal bnk redirect.
+                        if not os.path.exists(filename[2]):
+                            subprocess.run([args.bnkextr_path, filename[0]], capture_output=True)
+                        if not os.path.exists(filename[2]):
+                            raise RuntimeError("Couldn't find {}".format(filename[2]))
+                        samplerate = get_wem_samplerate(filename[2])
+                    else:
+                        samplerate = get_wem_samplerate(filename)
+                    samplerates.add(samplerate)
+                    samplerate_map[filename] = samplerate
+                if len(samplerates) == 1:
+                    # We're good to go; don't bother processing any further
+                    continue
+
+                max_samplerate = max(samplerates)
+                print('Multi-samplesize: {} - max: {}'.format(txtp_filename, max_samplerate))
+                txtp.root.resample_to(max_samplerate, samplerate_map, args.vgm123_path, args.sox_path)
+                new_txtp_filename = '{}-ratefixed.txtp'.format(txtp_filename[:-5])
+                with open(new_txtp_filename, 'w') as odf:
+                    odf.write(txtp.to_string())
+                print(' -> Wrote to: {}'.format(new_txtp_filename))
 
