@@ -10,6 +10,7 @@ manage and listen to the music in the game.
 * [Processing WEM Files](#processing-wem-files)
 * [Processing BNK Files](#processing-bnk-files)
 * [Converting BNK to TXTP](#converting-bnk-to-txtp)
+* [Pruning Unnecessary TXTPs](#pruning-unnecessary-txtps)
 * [Understanding TXTP Files](#understanding-txtp-files)
 * [Categorizing TXTPs](#categorizing-txtps)
 * [Code-Based TXTP Processing](#code-based-txtp-processing)
@@ -245,6 +246,29 @@ CoV in the Ambermire while in disguise.
 Regardless, once you have these `.txtp` files, they'll be directly playable
 with the vgmstream app that we talked about in the `.wem` section.  So,
 make sure that you've got vgmstream installed, and you'll be good to go!
+
+Pruning Unnecessary TXTPs
+-------------------------
+
+When the BL3 audio is translated into TXTPs, many of the Level music files
+end up "doubled up" with companion files which turn literally all of the
+various layers off (resulting in a totally-silent file).  For instance,
+this is one of the TXTPs which gets generated:
+
+    Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}.txtp
+
+And alongside it is this one:
+
+    Mus_Desolate_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_01) {s}=(Mus_Layer_Aux=Off)(Mus_Layer_Bass=Off)(Mus_Layer_Chord=Off)(Mus_Layer_Melody=Off)(Mus_Layer_PercLG=Off)(Mus_Layer_PercSM=Off).txtp
+
+If you take the time to investigate,  you'll find that the files are
+identical except that in the second, literally every layer has been muted.
+That's what all those `*Layer*=Off` sections are saying in the filename.
+
+Basically, all of those files are pretty much worthless to you, so you
+may as well go ahead and delete them outright.  In the BL3 data, at least,
+there's no harm in just deleting any TXTP file whose filename contains
+`=Off` in it.
 
 Understanding TXTP Files
 ------------------------
