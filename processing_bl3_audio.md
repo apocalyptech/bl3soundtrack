@@ -372,7 +372,7 @@ up there which determines how long the sample is.  In those
 situations, using `2` is *not* the same thing as saying `2.0`.
 If you use `2.0`, vgmstream will know that you mean "2 seconds,"
 but if you just use `2`, vgmstream will think you mean 2 *samples*,
-which is a very minute fraction of a second.  So when specifying
+which is a very small fraction of a second.  So when specifying
 anything relating to length in a TXTP file, make sure to use a
 decimal point even if you're using whole numbers.
 
