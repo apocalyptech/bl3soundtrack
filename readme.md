@@ -84,7 +84,7 @@ existing OSTs, and are instrumental in nature.  There's a few pretty
 obvious licensed tracks here, and a bunch which surprised me with the
 fact that they weren't done in-house.  These are collected (with my own
 notes about associations and general feel of the tracks) over here:
-[`non_soundtrack_txtps.txt`](Non-Soundtrack TXTPs).
+[Non-Soundtrack TXTPs](non_soundtrack_txtps.txt).
 
 ### Step 4: Unofficial Soundtrack Construction
 
@@ -92,7 +92,7 @@ So at this point I basically had a full picture of the audio available
 in the game, so I put together some unofficial soundtracks for my own
 personal use.  You won't find any actual music here, but I do have notes
 about how I put them together (including tracklists, etc), in the
-[`songs_construction`](songs_construction) directory here.  Given the
+[`custom_soundtracks`](custom_soundtracks) directory here.  Given the
 extraction info in Step 1, the mapping info from Step 3, plus the
 information in `songs_construction`, you'd be able to reconstruct the
 soundtracks pretty easily (assuming you're somewhat comfortable with
