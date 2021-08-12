@@ -15,6 +15,12 @@ order.  The single script in here reads in `songs.txt` to know which TXTPs
 we were interested in, finds the single `.wem` file inside, and then converts
 it over into ogg, leaving sequencing/tagging/etc as manual steps.
 
+James Dwyer's "Give Me All Your Guns" has a lot of silence after the main song
+has finished; I'd recommend using [mp3splt](http://mp3splt.sourceforge.net/mp3splt_page/home.php)
+to chop off the silence, using:
+
+    mp3splt filename 0.0 3.52
+
 Tracklist:
 
 1. Aeternam / Fallen is the Simulacrum of Bel
