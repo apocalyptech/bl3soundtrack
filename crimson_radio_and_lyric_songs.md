@@ -787,7 +787,9 @@ my memories would suggest).  The actual full track is even more so.
 
 # Other Info
 
-This post's markdown is also available [at github](https://github.com/apocalyptech/bl3soundtrack/blob/main/post.md).
+This post's markdown (and a ton of other detailed info about dealing with BL3
+audio extracts and processing these things into unofficial "companion"
+soundtracks is also available [at github](https://github.com/apocalyptech/bl3soundtrack).
 This data's hereby put this under public domain, or
 [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 Enjoy!
