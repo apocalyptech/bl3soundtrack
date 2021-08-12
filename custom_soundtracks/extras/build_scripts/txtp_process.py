@@ -706,6 +706,11 @@ if __name__ == '__main__':
             help='Path to vgm123/vgmstream123 binary; only used with --fix-mixed-samplerate',
             )
 
+    parser.add_argument('--delete-orig',
+            action='store_true',
+            help='When in --fix-mixed-samplerate mode, remove the original TXTP after resampling',
+            )
+
     args = parser.parse_args()
 
     if args.check:
@@ -1367,4 +1372,7 @@ if __name__ == '__main__':
                 with open(new_txtp_filename, 'w') as odf:
                     odf.write(txtp.to_string())
                 print(' -> Wrote to: {}'.format(new_txtp_filename))
+                if args.delete_orig:
+                    os.unlink(txtp_filename)
+                    print(' -> Deleted original: {}'.format(txtp_filename))
 
