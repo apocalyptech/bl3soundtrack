@@ -1,3 +1,20 @@
+Borderlands 3 Raw Audio Processing
+==================================
+
+This repo serves as a general dumping grounds for information that I've
+collected about dealing with raw audio extracts from Borderlands 3.
+The general purpose was that I'd already bought all the official
+soundtracks, but wanted to know what music in the game *wasn't* present
+on those soundtracks, and to put together some unofficial "companion"
+soundtracks for my own personal purposes.
+
+To do that, I needed to extract the audio, match the raw audio to the OST
+tracks as well as I could, and then categorize the remaining music tracks.
+
+[test, can I just do this?](processing_bl3_audio.md)
+
+--
+
 This is a ridiculous repo which just serves to house the backend markdown
 used in this Reddit post:
 
