@@ -22,6 +22,10 @@ in here.
 4. **Carnivora Festival** - When going into Carnivora, the player gets a
    random selection from a pool of eleven tracks, all very carnival-esque.
    These are those tracks.  Just 26min long!
+5. Not actually a soundtrack I put together, but I *do* have a directory here
+   with a bit of info about pulling out the non-music Crimson/CoV Radio bits
+   from the audio files, since I was interested in giving those a bit of a
+   listen.
 
 The `covers` dir also contains the album covers I used for 'em.
 

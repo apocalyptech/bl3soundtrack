@@ -1,0 +1,41 @@
+find_unmapped_wem.py generates a list of .wem files in our audio
+extracts which we don't actually reference in any of our .txtps.
+I'd sorted that by size and started at the big ones and worked
+my way down -- the size drops off pretty quickly, and in the end
+it looked like there was just a few tracks which might merit
+inclusion on an "extras" soundtrack.  There's presumably bits
+and bobs of other music in the ones I didn't listen to, but the
+sizes were getting low enough that everything was pretty minor.
+
+Actual music, not used (yet?):
+------------------------------
+
+1065626570.wem - Very moody and atmospheric - DLC3-related
+    - Not really worth soundtracking on its own, though, without anything
+      else to attach it to.
+511865345.wem - Real crunchy exciting electronic opening, base-game.
+574991506.wem - Continuation of 511865345
+    - These two are quite nice, but without anything to attach to, not sure
+      what I'd do with 'em
+
+Actual music, already queued up for soundtrack extension inclusion:
+-------------------------------------------------------------------
+
+915321961.wem - Moody piano thing -- DLC3-related.
+    - Very nice, actually; I may want to keep this.  Almost certainly
+      Raison Varner.  Definitely not in the official soundtrack.
+980319067.wem - Another version of the Citizen Science chiptunes tune
+    - "deeper" sounding overall; has a nice bassline through a lot of it.
+      Might prefer this to the other one.  (And indeed, yeah, I've flipped
+      over my soundtrack extension to use this instead)
+
+Not really music per se:
+------------------------
+
+296553770.wem - More backmasking
+32683506.wem - Watery sounding ambiance
+51420086.wem - Menacing synth stuff
+873391502.wem - Some backmasked stuff
+459124174.wem - Fast Travel sfx
+925155728.wem - Dramatic sting
+

@@ -27,4 +27,9 @@ Some brief summaries:
   directory that `categorize.py` sets up.
 * `find_unmapped_wem.py` - Attempts to identify WEM files which are not
   referenced in any TXTP files.
+  * `unreferenced_music_wems.txt` is a bit of info on a few bits of music
+    found using that util.  (One more were already folded into my main
+    results and used in one of my soundtracks -- see `non_soundtrack_txtps.txt`
+    in the main dir for those.)  In general there wasn't much, though.
+    The `.wem` filesize drops low quite quickly.
 
