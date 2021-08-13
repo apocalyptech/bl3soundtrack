@@ -232,7 +232,7 @@ useful.  For instance, you might have:
 
     3029262992 (2385001308=245432218).txtp
 
-This is due to how Wwiser stores its data -- we need to supply
+This is due to how Wwise stores its data -- we need to supply
 wwiser with a list of names that we expect to show up in the data, so that
 it can associate the numbers to the names.  I've put together a file to
 use for that which you can find here: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Borderlands%203%20%28PC%29.txt).
