@@ -194,6 +194,7 @@ more than just these audio files))
 'Mus_City_Play (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_08) {s} {r}.txtp'
 
 17. Michael McCann / The Rampager - Part 1
+'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_01).txtp'
 'Mus_City_Vault_Boss_Play (Mus_Scripted_City_Vault_Boss=Phase_02).txtp'
 
 18. Michael McCann / The Rampager - Part 2
@@ -459,12 +460,16 @@ Year: 2019
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_00)(Mus_System_Parts=Mus_Part_05) {s} {r}.txtp'
 
 4. Finishing Move Inc. / Devil's Razor - Close Shave
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
+'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_00) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_01) {s}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_02) {s}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_04)(Mus_System_Parts=Mus_Part_04) {s}.txtp'
-(plus some stuff from sections 1+2, perhaps...)
+(maybe plus some small bits from section 1?)
 
 5. Finishing Move Inc. / Carnivora RIDES!
 'Mus_Motorcade_Veh_Boss_Start (Mus_Scripted_Motorcade_Veh_Boss=Phase_01).txtp'

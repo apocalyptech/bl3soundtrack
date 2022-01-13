@@ -82,6 +82,9 @@ fun note, this and the `Mus_Wetlands_Vault_EdenBoss_Fake_On` track share
 some DNA, and even have almost identical-sounding endings.  I'm pretty sure
 that the other one is sort of a continuation of this, and that they're both
 probably McCann tracks (even though the other one's from Eden-6).
+**Note:** This actually *is* on the official soundtrack, as the track
+"The Rampager - Part 1" by Michael McCann (disc 1).  Leaving it in the list
+here since I'd ended up putting it on my own "Extras" soundtrack, though.
 
 'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step01).txtp'
 'Mus_Convoy_Sax (Mus_Scripted_Convoy_Sax=Mus_Scripted_Convoy_Sax_Step02).txtp'
@@ -146,11 +149,17 @@ which is subtle and rather fun.
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_02)(Mus_System_Parts=Mus_Part_04) {s} {r}.txtp'
+Finishing Move Inc., possibly / Devil's Razor - Section 2
+Extra music from Devil's Razor which doesn't appear to be on the soundtracks.
+**Note:** It turns out that at least part of this *is* on the official
+soundtracks, as "Devil's Razor - Close Shave," by Finishing Move Inc (disc
+3).  Leaving it on this list just 'cause I'd included it in my "Extras"
+soundtrack.
+
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_00) {s}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_01) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_02) {s} {r}.txtp'
 'Mus_Desert_Start (Mus_System_Sections=Mus_Section_03)(Mus_System_Parts=Mus_Part_03) {s} {r}.txtp'
-Finishing Move Inc., possibly / Devil's Razor - Section 2
 Finishing Move Inc., possibly / Devil's Razor - Section 3
 Extra music from Devil's Razor which doesn't appear to be on the soundtracks.
 
@@ -252,9 +261,9 @@ https://www.amazon.com/dp/B07ZPDQ9SQ/
 Raison Varner, possibly / Ashfall Peaks Unease
 Some extra Ashfall Peak music.  This is only a 20-second loop, but there
 *is* a lot of variation, and it's pretty great when strung together.  Bits
-of this *are* used in the OST Ashfall Peak track, but soundtracking it with
-a forced-random count of 5 makes for a pretty awesome track.  I actually
-really like how it fades out, too...
+of this *are* used in the OST Ashfall Peak track (specifically around the
+4:30 mark), but soundtracking it with a forced-random count of 5 makes for
+a pretty awesome track.  I actually really like how it fades out, too...
 
 'Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp'
 Agent Dee's dance music during the Going Rogue mission in Ambermire.

@@ -70,11 +70,14 @@ official soundtracks.  Oops!  Here's what I've noticed thus far:
   "The Rampager - Part 1" by Michael McCann (from disc 1).  Not sure how
   I'd missed this one.
 * My "Devil's Razor - Section 2" contains some stuff from the OST's
-  "Devil's Razor - Close Shave," by Finishing Move Inc.
+  "Devil's Razor - Close Shave," by Finishing Move Inc (from disc 3).
 * The main melodic line in my "Ashfall Peaks Unease" shows up in the OST's
-  "Ashfall Peak" by Raison Varner (from, obvs, the Bounty of Blood OST).
-  The treatment is pretty different between the two, though -- the OST's
-  version is a bit more atmospheric, whereas mine's a bit "harder."
+  "Ashfall Peak" by Raison Varner (from, obvs, the Bounty of Blood OST),
+  at around 4:30 or so.  The treatment is pretty different between the
+  two, though -- the OST's version is a bit more atmospheric, whereas
+  mine's a bit "harder."  The OST track, like most of the DLC3 soundtrack,
+  is a longer-form medley of a bunch of stuff, too, so the similarity is
+  only there for awhile.
 
 In-Game-Sources
 ===============
