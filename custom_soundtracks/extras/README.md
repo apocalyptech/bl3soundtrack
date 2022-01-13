@@ -9,7 +9,9 @@ This soundtrack was basically intended to include all extra relevant
 "orchestral" soundtrack type music present in the game which doesn't appear on
 the official soundtracks.  This excludes Crimson Radio tracks, tracks that
 appear in the intro/credits sequences, and a few other bits and bobs, but it
-otherwise fills out the official soundtracks quite nicely.
+otherwise fills out the official soundtracks quite nicely.  (See the "errors"
+section below for a few instances of me accidentally including things which
+*are* on the OSTs.)
 
 While putting it together I was surprised by the amount of licensed music
 that was left in the game -- I'd been assuming that the majority of the
@@ -54,6 +56,25 @@ The guitar in that track certainly sounds a lot like McCann's Sanctuary
 track, and eventually I came around to the idea that McCann might've done the
 whole Act 0 score in addition to Promethea/Athenas, rather than Finishing
 Move Inc.  Time will tell if I'm right about that, perhaps!
+
+Some "Errors"
+=============
+
+After having listened through both the official BL3 OST and my own Extras
+a number of times since the original posting here, I did notice that I'd
+included some music in this "Extras" playlist which *is* included in the
+official soundtracks.  Oops!  Here's what I've noticed thus far:
+
+* My "The Rampager Emerges / Graveward Guardian Fake-Out" contains stuff
+  that's basically identical to music from the official soundtrack's
+  "The Rampager - Part 1" by Michael McCann (from disc 1).  Not sure how
+  I'd missed this one.
+* My "Devil's Razor - Section 2" contains some stuff from the OST's
+  "Devil's Razor - Close Shave," by Finishing Move Inc.
+* The main melodic line in my "Ashfall Peaks Unease" shows up in the OST's
+  "Ashfall Peak" by Raison Varner (from, obvs, the Bounty of Blood OST).
+  The treatment is pretty different between the two, though -- the OST's
+  version is a bit more atmospheric, whereas mine's a bit "harder."
 
 In-Game-Sources
 ===============
