@@ -568,8 +568,9 @@ were first mentioned up in the DLC1 credits section above.
       instead)*
   * https://anonymousrecordings.com/remixes/
   * https://www.amazon.com/Beat-Swing-Remixd-Robert-Edwards/dp/B07PVC7GSY
-  * Remix of "Charleston Boogie" from the original Beat Swing album, by
-    [PiSk](http://www.freshlysqueezedmusic.com/artist/pisk/)
+  * Remix by [PiSk](http://www.freshlysqueezedmusic.com/artist/pisk/) of
+    "Charleston Boogie" from the [original Anonymous Recordings "Beat Swing"
+    album](https://bmgmusic.sourceaudio.com/#!explorer?b=4986646)
 
 **Baby Dancer**
 
