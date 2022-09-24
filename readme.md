@@ -1,9 +1,9 @@
-Borderlands 3 Raw Audio Processing
-==================================
+Borderlands 3 / Wonderlands Raw Audio Processing
+================================================
 
 This repo serves as a general dumping grounds for information that I've
-collected about dealing with raw audio extracts from Borderlands 3.
-The general purpose was that I'd already bought all the official
+collected about dealing with raw audio extracts from Borderlands 3 and
+Wonderlands.  The general purpose was that I'd already bought all the official
 soundtracks, but wanted to know what music in the game *wasn't* present
 on those soundtracks, and to put together some unofficial "companion"
 soundtracks for my own personal purposes.
