@@ -242,10 +242,10 @@ each game, to use for that which you can find here:
 
 * **Borderlands 3**
   * From `wwiser-utils` repo: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Borderlands%203%20%28PC%29.txt)
-  * Local repo: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Borderlands%203%20%28PC%29.txt)
+  * Local repo: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/extract_processing/wwnames/Borderlands%203%20%28PC%29.txt)
 * **Wonderlands**
   * From `wwiser-utils` repo: [Tiny Tina's Wonderlands (PC).txt](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt)
-  * Local repo: [Tiny Tina's Wonderlands (PC).txt](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt)
+  * Local repo: [Tiny Tina's Wonderlands (PC).txt](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/extract_processing/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt)
 
 Save that file in the same directory as all the `.wem` and `.bnk` files,
 with the filename `wwnames.txt`.  Then when you run `wwiser.py`,

@@ -9,7 +9,7 @@ Some brief summaries:
   [TXTP](https://github.com/vgmstream/vgmstream/blob/master/doc/TXTP.md) files
   for use with [vgmstream](https://vgmstream.org/).  Make sure you've got
   [this name-suggestion file](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Borderlands%203%20%28PC%29.txt)
-  ([local mirror](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Borderlands%203%20%28PC%29.txt))
+  ([local mirror](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/extract_processing/wwnames/Borderlands%203%20%28PC%29.txt))
   in the current dir with the name `wwnames.txt`, so that the TXTP files are
   named sensibly.
 * `hash_to_name.txt` - A text file I can use for quick lookups of what
