@@ -11,6 +11,12 @@ soundtracks for my own personal purposes.
 To do that, I needed to extract the audio, match the raw audio to the OST
 tracks as well as I could, and then categorize the remaining music tracks.
 
+The Wonderlands info in this repo is primarily limited to "Step 1" below --
+ie: processing the audio.  I'm unlikely to try and collect Wonderlands
+music into unofficial soundtracks, as I did with BL3.  The general
+advice for dealing with the music extracts is essentially identical,
+though.
+
 ### Step 0: Official Soundtracks
 
 There's a ton of these, and it's actually not super straightforward
@@ -25,7 +31,7 @@ You can find official links to all the OSTs from here:
 
 ### Step 1: Extract and Work With The Songs
 
-I've slapped all this together here: [Processing BL3 Audio](processing_bl3_audio.md).
+I've slapped all this together here: [Processing BL3/WL Audio](processing_bl3_audio.md).
 See in there for all the details, including how to get all the random-number-named
 files into a state that's far easier to browse.
 
