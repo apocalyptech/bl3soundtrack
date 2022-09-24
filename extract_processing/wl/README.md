@@ -1,6 +1,6 @@
-This dir is just to hold some scripts that I've used to wrangle the extracted
-BL3 audio data in various ways.  Pretty minor stuff, but since I'm extending
-this repo quite a bit anyway, I may as well throw 'em in here.
+Wonderlands versions of my audio-wrangling scripts.  Very little is different
+from the BL3 versions, but it's enough that I figured separating them out made
+sense.
 
 Some brief summaries:
 
@@ -8,8 +8,8 @@ Some brief summaries:
   collection of `.bnk` files in the current dir, which generates
   [TXTP](https://github.com/vgmstream/vgmstream/blob/master/doc/TXTP.md) files
   for use with [vgmstream](https://vgmstream.org/).  Make sure you've got
-  [this name-suggestion file](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Borderlands%203%20%28PC%29.txt)
-  ([local mirror](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Borderlands%203%20%28PC%29.txt))
+  [this name-suggestion file](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt)
+  ([local mirror](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt))
   in the current dir with the name `wwnames.txt`, so that the TXTP files are
   named sensibly.
 * `hash_to_name.txt` - A text file I can use for quick lookups of what
@@ -22,17 +22,14 @@ Some brief summaries:
 * `link_external_vos.py` - A bunch of voiceover-related `.bnk` banks are
   used to trigger arbitrary dialog which is chosen at runtime, so wwiser
   can't generate full TXTPs for those.  This util uses my
-  [bl3data Python library](https://github.com/BLCM/bl3mods/tree/master/python_mod_helpers)
+  [wldata Python library](https://github.com/BLCM/wlmods/tree/master/python_mod_helpers)
   to find associations to those WEM files, and writes out a series of TXTPs
   for the matches that it finds.  Basically only useful inside the `vo`
   directory that `categorize.py` sets up.
 * `find_unmapped_wem.py` - Attempts to identify WEM files which are not
   referenced in any TXTP files.
-  * `unreferenced_music_wems.txt` is a bit of info on a few bits of music
-    found using that util.  (One more were already folded into my main
-    results and used in one of my soundtracks -- see `non_soundtrack_txtps.txt`
-    in the main dir for those.)  In general there wasn't much, though.
-    The `.wem` filesize drops low quite quickly.
+* `play_unmapped.py` - A little script to loop through the results of
+  `find_unmapped_wem.py` and play each file, to help categorize them.
 
-Wonderlands versions of these utils can be found in the `wl` directory here.
+BL3 versions of these utils can be found in the parent directory.
 

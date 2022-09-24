@@ -1,7 +1,7 @@
-Processing Borderlands 3 Audio
-==============================
+Processing Borderlands 3 / Wonderlands Audio
+============================================
 
-Processing the raw audio files from Borderlands 3 isn't difficult really,
+Processing the raw audio files from Borderlands 3 and Wonderlands isn't difficult really,
 but it does require a bunch of tools that you may not be familiar with
 yet.  This document aims to go over the usual methods you can use to
 manage and listen to the music in the game.
@@ -26,8 +26,8 @@ post should have all the info you need to do it that way.
 
 Personally, I use the methods described at
 [the BLCMods wiki](https://github.com/BLCM/BLCMods/wiki/Accessing-Borderlands-3-Data),
-which is more geared towards BL3 modders, but which work just as well
-for extracting audio.  The `unpack_bl3.py` script linked in there is
+which is more geared towards BL3/WL modders, but which work just as well
+for extracting audio.  The `unpack_bl3.py`/`unpack_wl.py` scripts linked in there are
 my usual method for doing so.  The script's default configuration is
 geared towards game data, not audio, and in fact explicitly *skips*
 doing audio extraction, so you'll need to make a couple of changes.
@@ -68,7 +68,7 @@ SKIP_AUDIO_PAKS = True
 
 Change that `SKIP_AUDIO_PAKS = True` to `SKIP_AUDIO_PAKS = False`.
 
-At this point, you can run `unpack_bl3.py` against the pakfiles you want
+At this point, you can run `unpack_bl3.py`/`unpack_wl.py` against the pakfiles you want
 to extract.  All pakfiles starting with `pakchunk2-` contain base-game
 audio, so you'll want that.  Pakfiles starting with `pakchunk3-` are
 generally English-language-related files, but they also include things
@@ -207,6 +207,8 @@ use to do this conversion is:
 
     wwiser.py -g -go bl3-txtp -gw .. Init.bnk *.bnk
 
+(Note that Wonderlands does not have an `Init.bnk`, so leave that one off.)
+
 Let's take those arguments one-by-one:
 
 * `-g` - This is the argument which tells Wwiser to generate `.txtp` files
@@ -223,7 +225,8 @@ Let's take those arguments one-by-one:
 * `Init.bnk *.bnk` - Wwiser recommends processing `Init.bnk` first, so I
   just specify it first and then use the wildcard for everything else.  That
   means that `Init.bnk` might be getting processed twice, but it doesn't
-  seem to hurt anything.
+  seem to hurt anything.  (Wonderlands does not have an `Init.bnk`, so don't
+  bother specifying that for WL.)
 
 Once you've run `wwiser.py`, you'll have a `bl3-txtp` dir with a ton of
 `.txtp` files in them, but you'll see that they're still named quite
@@ -234,8 +237,15 @@ useful.  For instance, you might have:
 
 This is due to how Wwise stores its data -- we need to supply
 wwiser with a list of names that we expect to show up in the data, so that
-it can associate the numbers to the names.  I've put together a file to
-use for that which you can find here: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Borderlands%203%20%28PC%29.txt).
+it can associate the numbers to the names.  I've put together a file for
+each game, to use for that which you can find here:
+
+* **Borderlands 3**
+  * From `wwiser-utils` repo: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Borderlands%203%20%28PC%29.txt)
+  * Local repo: [Borderlands 3 (PC).txt](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Borderlands%203%20%28PC%29.txt)
+* **Wonderlands**
+  * From `wwiser-utils` repo: [Tiny Tina's Wonderlands (PC).txt](https://raw.githubusercontent.com/bnnm/wwiser-utils/master/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt)
+  * Local repo: [Tiny Tina's Wonderlands (PC).txt](https://raw.githubusercontent.com/apocalyptech/bl3soundtrack/main/wwnames/Tiny%20Tina%27s%20Wonderlands%20%28PC%29.txt)
 
 Save that file in the same directory as all the `.wem` and `.bnk` files,
 with the filename `wwnames.txt`.  Then when you run `wwiser.py`,
