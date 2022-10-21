@@ -13,8 +13,8 @@ manage and listen to the music in the game.
   * [Processing BNK Files](#processing-bnk-files)
   * [Converting BNK to TXTP](#converting-bnk-to-txtp)
   * [Pruning Unnecessary TXTPs](#pruning-unnecessary-txtps)
+  * [Categorizing TXTPs](#categorizing-txtps)
 * [Understanding TXTP Files](#understanding-txtp-files)
-* [Categorizing TXTPs](#categorizing-txtps)
 * [Code-Based TXTP Processing](#code-based-txtp-processing)
 
 Extracting the Audio
@@ -330,6 +330,24 @@ may as well go ahead and delete them outright.  In the BL3 data, at least,
 there's no harm in just deleting any TXTP file whose filename contains
 `=Off` in it.
 
+### Categorizing TXTPs
+
+The Wwiser command I run to create the TXTP files outputs into `bl3-txtp`,
+but I tend to like categorizing the generated files into more subfolders,
+because I find them much easier to deal with.  For instance, I've got
+a separate subfolders for `music` and `enemies`, etc.  I've got a script
+to do this categorization for me in `extract_processing/categorize.py`,
+so check that out if you'd like to do the same.
+
+One side-effect of that is that my TXTP files are actually *two* levels
+deeper than the `.wem` files they reference, so my actual command that
+I use to generate TXTP files is:
+
+    wwiser.py -g -go bl3-txtp -gw ../.. Init.bnk *.bnk
+
+So the `.wem` references have `../../` in front of them instead of just
+`../`
+
 Understanding TXTP Files
 ------------------------
 
@@ -344,11 +362,11 @@ see in the Borderlands 3 data.
 If we take a look at at `Mus_Marshfields_Honey_Pot_Start (Mus_Scripted_Marshfields=Honey_Pot_On).txtp`
 in a text editor, near the top is where all the useful information is:
 
-     ../752876681.wem #i #b 0.9375
-     ../752876681.wem #i #b 90.9375 #r 0.9375 #@loop
+     ../../752876681.wem #i #b 0.9375
+     ../../752876681.wem #i #b 90.9375 #r 0.9375 #@loop
     group = -S2  #v -11.0dB  ##loop
 
-Because we specified `-gw ..`, it's looking for the `.wem` files in the
+Because we specified `-gw ../..`, it's looking for the `.wem` files in the
 parent directory, which is generally how I like it.  The bottom
 line which starts with `group = -S2` is saying that Wwise should play
 the preceeding two wem files in a segment (so: one after the other).
@@ -369,13 +387,13 @@ indefinitely.
 
 Taking a look at a different TXTP file, we might see something like:
 
-      ../196791315.wem #i #b 3.2
-      ../280173883.wem #i #b 3.2 #v -9.0dB
-      ../513861638.wem #i #b 3.2 #v -5.0dB ##fade
+      ../../196791315.wem #i #b 3.2
+      ../../280173883.wem #i #b 3.2 #v -9.0dB
+      ../../513861638.wem #i #b 3.2 #v -5.0dB ##fade
      group = -L3 #@layer-v
-      ../196791315.wem #i #b 28.8 #r 3.2
-      ../280173883.wem #i #b 28.8 #r 3.2 #v -9.0dB
-      ../513861638.wem #i #b 28.8 #r 3.2 #v -5.0dB ##fade
+      ../../196791315.wem #i #b 28.8 #r 3.2
+      ../../280173883.wem #i #b 28.8 #r 3.2 #v -9.0dB
+      ../../513861638.wem #i #b 28.8 #r 3.2 #v -5.0dB ##fade
      group = -L3 #@layer-v #@loop
     group = -S2  #v -9.0dB ##loop
 
@@ -392,14 +410,14 @@ groups one after the other (looping over the second).
 
 As one final example, you may see this kind of group as well:
 
-     ../828674333.wem #i #b 2.5531914893616996
-     ../997629975.wem #i #b 2.5531914893616996
-     ../574466156.wem #i #b 2.5531914893616996
-     ../659770987.wem #i #b 2.5531914893616996
-     ../290672607.wem #i #b 2.5531914893616996
-     ../631412921.wem #i #b 2.5531914893616996
-     ../186472671.wem #i #b 2.5531914893616996
-     ../784989600.wem #i #b 2.5531914893616996
+     ../../828674333.wem #i #b 2.5531914893616996
+     ../../997629975.wem #i #b 2.5531914893616996
+     ../../574466156.wem #i #b 2.5531914893616996
+     ../../659770987.wem #i #b 2.5531914893616996
+     ../../290672607.wem #i #b 2.5531914893616996
+     ../../631412921.wem #i #b 2.5531914893616996
+     ../../186472671.wem #i #b 2.5531914893616996
+     ../../784989600.wem #i #b 2.5531914893616996
     group = -R8>1  #v 5.0dB  ##fade
 
 Note the `-R8>1` in the group arguments -- that means that this
@@ -435,25 +453,6 @@ but if you just use `2`, vgmstream will think you mean 2 *samples*,
 which is a very small fraction of a second.  So when specifying
 anything relating to length in a TXTP file, make sure to use a
 decimal point even if you're using whole numbers.
-
-Categorizing TXTPs
-------------------
-
-The Wwiser command I run to create the TXTP files outputs into `bl3-txtp`,
-but I tend to like categorizing the generated files into more subfolders,
-because I find them much easier to deal with.  For instance, I've got
-a separate subfolders for `music` and `enemies`, etc.  I've got a script
-to do this categorization for me in `extract_processing/categorize.py`,
-so check that out if you'd like to do the same.
-
-One side-effect of that is that my TXTP files are actually *two* levels
-deeper than the `.wem` files they reference, so my actual command that
-I use to generate TXTP files is:
-
-    wwiser.py -g -go bl3-txtp -gw ../.. Init.bnk *.bnk
-
-So the `.wem` references have `../../` in front of them instead of just
-`../`
 
 Code-Based TXTP Processing
 --------------------------
