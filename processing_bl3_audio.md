@@ -7,10 +7,12 @@ yet.  This document aims to go over the usual methods you can use to
 manage and listen to the music in the game.
 
 * [Extracting the Audio](#extracting-the-audio)
-* [Processing WEM Files](#processing-wem-files)
-* [Processing BNK Files](#processing-bnk-files)
-* [Converting BNK to TXTP](#converting-bnk-to-txtp)
-* [Pruning Unnecessary TXTPs](#pruning-unnecessary-txtps)
+* [Pre-Processed Audio](#pre-processed-audio)
+* [Manual Processing](#manual-processing)
+  * [Processing WEM Files](#processing-wem-files)
+  * [Processing BNK Files](#processing-bnk-files)
+  * [Converting BNK to TXTP](#converting-bnk-to-txtp)
+  * [Pruning Unnecessary TXTPs](#pruning-unnecessary-txtps)
 * [Understanding TXTP Files](#understanding-txtp-files)
 * [Categorizing TXTPs](#categorizing-txtps)
 * [Code-Based TXTP Processing](#code-based-txtp-processing)
@@ -114,8 +116,54 @@ so you can safely remove everything else that was extracted, if you're
 only interested in the audio.  The data from the language-specific
 pakfiles will be in a subdirectory under there, named by the language.
 
-Processing WEM Files
---------------------
+Pre-Processed Audio
+-------------------
+
+Once you have the audio extracted, you'll note that it's all a big
+unsorted collection of `.wem` and `.bnk` files, with incomprehensible
+numbers for filenames.  The `.wem` files are raw audio, and the `.bnk`
+files are "sound bank" files which include a *lot* of real interesting
+processing ability, and may have further audio embedded in them as well.
+
+You can see the "Manual Processing" section below, if you want, for the
+methods you'd use to massage these unhelpful files into human-readable
+forms which are much easier to deal with, but I've also gone ahead and
+done all that work for you.
+
+The main takeaway is that you end up processing these into `.txtp` files
+which are playable using software like [vgmstream](https://vgmstream.org/).
+I've got two zipfiles available with the accumulated audio available for
+both Borderlands 3 and Wonderlands.
+
+ * Borderlands 3: https://drive.google.com/file/d/1CL9TeFkm9BZADvhKVzA9ZI1WkLiE4sRH/view?usp=sharing
+ * Wonderlands: https://drive.google.com/file/d/1G6rzHk5T059DMT4bhO5Tz8vYyZQCLfLG/view?usp=sharing
+
+What you'll want to do is unzip those at the same level as all the `.wem`
+and `.bnk` files, so that you've got a `bl3-txtp` directory (or `wl-txtp`
+directory) sitting right alongside the WEMs and BNKs.  Inside *those* dirs
+will be categorized directories like `music`, `sfx`, `vo`, etc.  Those dirs
+will contain the actual `.txtp` files which collate all the game data into
+logical clumps with, mostly, useful filenames.
+
+Note that the `.txtp` files are set up to *need* the `.wem` and `.bnk` files
+two levels "above" the `.txtp` itself.  If you open them up in a text editor,
+you'll see that they include paths like `../../271517257.wem`.
+
+At this point, you can use vgmstream (or other apps that it integrates with,
+like foobar) to play them, or convert them to oggs, etc.
+
+Manual Processing
+-----------------
+
+This section details the various methods for manually processing the
+`.wem`/`.bnk` files, ultimately arriving at `.txtp` files which are
+playable with [vgmstream](https://vgmstream.org/).  It's not a bad idea
+to get familiar with some of this stuff anyway, if you're working with
+these audio files yourself, but you can probably get away with just the
+pre-built TXTPs above.  Regardless, if you like excrutiating detail,
+here it is!
+
+### Processing WEM Files
 
 So: via whatever method, you've got the audio extracted.  The first
 thing you'll notice is that all the files are named pretty incomprehensibly,
@@ -153,8 +201,7 @@ It's worth noting that the game engine never *directly* plays a specific
 what gets played while the game runs.  For that, we need to look into
 the `.bnk` files instead.
 
-Processing BNK Files
---------------------
+### Processing BNK Files
 
 `.bnk` files are "Sound Bank" files, and these are actually super complex
 and interesting.  When the game wants to play audio, it will *always*
@@ -192,8 +239,7 @@ them using the utility [bnkextr](https://github.com/eXpl0it3r/bnkextr), but
 note that for BL3 audio, that's rarely useful.  Instead you'll be much better
 off doing a BNK -> TXTP conversion, as described below.
 
-Converting BNK to TXTP
-----------------------
+### Converting BNK to TXTP
 
 `.bnk` files can't really be "played" in the same way that a `.wem` file can,
 even with vgmstream, but there *is* a utility out there which can convert
@@ -262,8 +308,7 @@ Regardless, once you have these `.txtp` files, they'll be directly playable
 with the vgmstream app that we talked about in the `.wem` section.  So,
 make sure that you've got vgmstream installed, and you'll be good to go!
 
-Pruning Unnecessary TXTPs
--------------------------
+### Pruning Unnecessary TXTPs
 
 When the BL3 audio is translated into TXTPs, many of the Level music files
 end up "doubled up" with companion files which turn literally all of the
